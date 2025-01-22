@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+  color: black;
+  height: 100%;
+}
+
+.video-container {
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+}
+.video-container .video {
+  max-width: 100%;
+  max-height: 100%;
+  object-position: bottom;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.showcase .showcase-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.showcase .showcase-item .thumbnail {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+.showcase .showcase-item .description {
+  flex: 1;
+}
+
+.anchor {
+  display: flex;
+  height: 7vh;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(236, 238, 239);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.anchor .nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 14px;
+  transition: color 0.3s, transform 0.2s;
+}
+.anchor .nav-link:hover {
+  color: #0056b3;
+  transform: scale(1.1);
+}
+.anchor .nav-link:active {
+  color: #003d80;
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=App.css.map */

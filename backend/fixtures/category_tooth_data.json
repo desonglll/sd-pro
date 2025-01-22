@@ -1,0 +1,102 @@
+[
+  {
+    "model": "bucket.category",
+    "pk": 1,
+    "fields": {
+      "name": "ESCO® Surface Mining Products",
+      "title": "ESCO® Surface Mining Products",
+      "description": "ESCO® mining buckets and attachments are engineered to deliver unsurpassed performance and durability. Our buckets are custom-engineered to match the required capacity and duty cycle for each application and are available with standard or fully customised wear packages to help protect your investment and minimize downtime. We offer an array of lips and ground engaging tool (GET) systems, engineered to optimise the performance of your mining excavators, face shovels, cable shovels, wheel loaders and dragline buckets.",
+      "image_src": "https://www.global.weir/globalassets/category-and-sub-category-images/esco-category-page-images/ESCO_Construction_Excavator_Buckets.jpg?width=900&format=webp&quality=90"
+    }
+  },
+  {
+    "model": "bucket.category",
+    "pk": 2,
+    "fields": {
+      "name": "ESCO® Underground Mining Products",
+      "title": "ESCO® Underground Mining Products",
+      "description": "We have engineered and produced buckets for mining and construction markets for over 90 years. We use that expertise to design and manufacture direct replacement buckets for all popular LHD machines. Custom-engineered to meet application needs, we offer advanced LHD buckets fabricated to exacting standards with the finest materials available. In addition, there is a line of ESCO® underground mining products including drums, cutting heads, and cutting and trenching chain.",
+      "image_src": "https://www.global.weir/globalassets/category-and-sub-category-images/esco-category-page-images/ESCO_Cable_Shovel_Wear_Parts.jpg?width=900&format=webp&quality=90"
+    }
+  },
+  {
+    "model": "bucket.category",
+    "pk": 3,
+    "fields": {
+      "name": "ESCO® Construction and Aggregates Products",
+      "title": "ESCO® Construction and Aggregates Products",
+      "description": "In addition to offering a complete line of ESCO® value-added construction attachments, our dedicated staff of engineers and sales professionals can help ensure your equipment operates efficiently while achieving maximum productivity and profitability. We engineer and manufacture reliable construction excavators, wheel loaders buckets and GET, blades and accessories for all applications.",
+      "image_src": "https://www.global.weir/globalassets/phase--process-page-images/equipment-attachments---mining---underground-extraction-and-earthmoving/hero-image/lhd-bucket-used-in-underground-mining.jpg?width=900&f"
+    }
+  },
+  {
+    "model": "bucket.category",
+    "pk": 4,
+    "fields": {
+      "name": "ESCO® Industrial Products",
+      "title": "ESCO® Industrial Products",
+      "description": "Today’s operations are under increasing pressure to improve production levels while controlling costs and maintaining the safest working environment possible. As with any processing plant, the key to achieving these goals is an optimized equipment system. This is where the ESCO® comprehensive product offering and application professionals can deliver results that are unmatched for industrial products.",
+      "image_src": "https://www.global.weir/globalassets/phase--process-page-images/wear-parts---general-industry---metal-recycling/hero-image/Metal_Shredder.jpg?width=900&format=webp&quality=90"
+    }
+  },
+  {
+    "model": "bucket.toothmodel",
+    "pk": 1,
+    "fields": {
+      "name": "Model A",
+      "company": "Company X"
+    }
+  },
+  {
+    "model": "bucket.toothmodel",
+    "pk": 2,
+    "fields": {
+      "name": "Model B",
+      "company": "Company Y"
+    }
+  },
+  {
+    "model": "bucket.tooth",
+    "pk": 1,
+    "fields": {
+      "name": "ESCO® Ultralok® Mining Tooth System for Rope Shovels",
+      "model": 1,
+      "description": "Streamlined system profile and optimised point shapes improve material flow and increase digging efficiency.",
+      "category": 1,
+      "image_src": "https://www.global.weir/globalassets/product-images/esco-ultralok-mining-tooth-system-for-cable-shovels/product-images/Ultralok_for_Cable_Shovels.jpg?width=960&format=webp&quality=75"
+    }
+  },
+  {
+    "model": "bucket.tooth",
+    "pk": 2,
+    "fields": {
+      "name": "ESCO® Nexsys™ Lip System for Rope Shovel Dippers",
+      "model": 1,
+      "description": "Advanced Replacement for the Whisler Plus™ Lip System",
+      "category": 1,
+      "image_src": "https://www.global.weir/globalassets/product-images/esco-nexsys-for-rope-shovels/product-images/nexys-lip-system-for-rope-shovel-dippers-exploded-view.jpg?width=960&format=webp&quality=75"
+    }
+  },
+  {
+    "model": "bucket.tooth",
+    "pk": 3,
+    "fields": {
+      "name": "ESCO® Nemisys® Rope Shovel Dipper Lip System with Integral Noses",
+      "model": 2,
+      "description": "Streamlined profile and lower system weight improve dig penetration for lower energy extraction over traditional mechanical dipper lip systems.",
+      "category": 2,
+      "image_src": "https://www.global.weir/globalassets/product-images/esco-nemisys-cable-shovel-dipper-lip-system-with-integral-noses/product-images/ESCO_Nemisys_Cable_Shovel_Dipper_Lip_System_With_Integral_Noses.jpg?width=960&format=webp&quality=75"
+    }
+  },
+  {
+    "model": "bucket.tooth",
+    "pk": 4,
+    "fields": {
+      "name": "ESCO® Production Master® Rope Shovel Dippers",
+      "model": 2,
+      "description": "Unsurpassed productivity, higher payloads and increased machine availability.",
+      "category": 2,
+      "image_src": "https://www.global.weir/globalassets/product-images/esco-production-master-cable-shovel-dippers/product-images/production-master-cable-shovel-with-radius-nemisys-lip-1.jpg?width=960&format=webp&quality=75"
+    }
+  }
+]

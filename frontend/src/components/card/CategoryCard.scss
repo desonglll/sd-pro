@@ -1,0 +1,43 @@
+.underground-mining-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding: 40px; // 添加这行
+  gap: 40px;
+  border-radius: unset;
+  width: 100%;
+  border: none;
+
+  .ant-row {
+    width: 100%;
+    margin: 0 !important; // 覆盖 antd 的默认 margin
+    .ant-col {
+      flex: 0 0 50% !important; // 强制 Col 占 50% 宽度
+      max-width: 50% !important; // 确保最大宽度也是 50%
+
+      @media (max-width: 767px) { // 响应式布局
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+      }
+    }
+  }
+
+  .content {
+    width: 100%; // 修改为 100%
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .mining-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+.ant-card-body {
+  width: 100%;
+}

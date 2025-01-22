@@ -1,0 +1,30 @@
+.top-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: #fbf1c7;
+  height: 7vh;
+}
+.top-menu-header .logo-container {
+  display: flex;
+  align-items: center;
+}
+.top-menu-header .logo-container .logo {
+  height: 48px;
+  margin-right: 16px;
+}
+.top-menu-header .top-menu {
+  flex: 1;
+  justify-content: flex-end;
+  background-color: #fbf1c7;
+  height: 100%;
+}
+.top-menu-header .top-menu .ant-menu-item {
+  margin: 0 8px;
+}
+.top-menu-header .top-menu .ant-menu-submenu {
+  margin: 0 8px;
+}
+
+/*# sourceMappingURL=TopMenu.css.map */

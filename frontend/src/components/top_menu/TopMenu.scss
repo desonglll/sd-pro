@@ -1,0 +1,33 @@
+.top-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: #fbf1c7; // 设置整个 Header 背景颜色
+  height: 7vh;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      height: 48px;
+      margin-right: 16px;
+    }
+  }
+
+  .top-menu {
+    flex: 1;
+    justify-content: flex-end;
+    background-color: #fbf1c7; // 设置 Menu 背景颜色与 Header 一致
+    height: 100%;
+
+    .ant-menu-item {
+      margin: 0 8px;
+    }
+
+    .ant-menu-submenu {
+      margin: 0 8px;
+    }
+  }
+}
