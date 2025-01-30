@@ -11,7 +11,6 @@ import Footer from "./components/skeleton/Footer.tsx";
 
 const App: React.FC = () => {
 
-
     return (
         <>
             <TopMenu/>
