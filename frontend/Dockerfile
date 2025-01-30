@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 RUN ls -a .
-
+ENV VITE_API_URL=/api
 # 设置生产环境变量
 ENV NODE_ENV=production
 
