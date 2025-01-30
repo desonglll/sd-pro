@@ -1,4 +1,4 @@
-import proVideo from "../assets/pro.mov";
+// import proVideo from "../assets/pro.mov";
 import {Anchor} from "antd";
 import CategoryCard, {CategoryProps} from "../components/card/CategoryCard.tsx";
 import {useEffect, useState} from "react";
@@ -27,6 +27,7 @@ function IndexPage() {
             axios.get(BackendEndpoint.bucketCategory).then((response) => {
                 if (response.status === 200) {
                     // 使用类型断言将 response.data 转换为 Card[]
+                    console.log(response.data);
                     setCards(response.data);
                 }
             }).finally(() => {
@@ -39,22 +40,41 @@ function IndexPage() {
 
     return (!loading &&
         <>
+            {/*<div className="video-container">*/}
+            {/*    <video*/}
+            {/*        className="video"*/}
+            {/*        width="100%"*/}
+            {/*        height="100%"*/}
+            {/*        // src={proVideo}*/}
+            {/*        src={"https://youtu.be/_NHuQ32dCpc"}*/}
+            {/*        // controls*/}
+            {/*        autoPlay*/}
+            {/*        muted*/}
+            {/*        loop*/}
+            {/*        style={{objectFit: "cover"}}*/}
+            {/*    >*/}
+            {/*        Your browser does not support the video tag.*/}
+            {/*    </video>*/}
+            {/*</div>*/}
+
             <div className="video-container">
-                <video
+                <iframe
                     className="video"
                     width="100%"
                     height="100%"
-                    // src={proVideo}
-                    src={"https://youtu.be/_NHuQ32dCpc"}
-                    // controls
-                    autoPlay
-                    muted
-                    loop
-                    style={{objectFit: "cover"}}
-                >
-                    Your browser does not support the video tag.
-                </video>
+                    src="https://www.youtube.com/embed/_NHuQ32dCpc?autoplay=1&controls=0&modestbranding=1&rel=0&showinfo=0&mute=1&loop=1&playlist=_NHuQ32dCpc"
+                    title="sd-pro"
+                    frameBorder="0"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allow="autoplay; encrypted-media; picture-in-picture"
+                    style={{
+                        height: "100%",
+                        objectFit: "cover",
+                        pointerEvents: "none", // 禁止鼠标交互，隐藏控制栏
+                    }}
+                ></iframe>
             </div>
+
 
             <Anchor className="anchor" direction="horizontal"
                     items={cards.map((item) => (

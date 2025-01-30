@@ -8,6 +8,11 @@ export default ({mode}: { mode: string }) => {
     return defineConfig({
         base: "/",
         plugins: [react()],
+        // server: {
+        //     proxy: {
+        //         "/api/": "http://127.0.0.1:8000",
+        //     }
+        // },
         define: {
             // 这样 VITE_API_URL 会被正确注入到前端代码中
             "import.meta.env.VITE_API_URL": JSON.stringify(env.VITE_API_URL),
