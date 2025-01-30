@@ -14,5 +14,8 @@ export default defineConfig({
                 rewrite: (path) => path.replace(/^\/api/, ''), // 可选：移除 /api 前缀
             },
         },
+    },
+    define: {
+        "process.env": process.env,  // 确保 Vite 读取环境变量
     }
 });
