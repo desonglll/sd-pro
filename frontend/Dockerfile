@@ -13,11 +13,15 @@ RUN npm install
 # 复制项目文件，包括 .env.production
 COPY . .
 
+RUN ls -a .
+
 # 设置生产环境变量
 ENV NODE_ENV=production
 
 # 构建前端
 RUN npm run build
+
+
 
 # 使用 Nginx 作为静态文件服务器
 FROM nginx:alpine

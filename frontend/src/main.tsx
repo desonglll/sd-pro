@@ -6,6 +6,7 @@ import axios from "axios";
 import {BrowserRouter} from "react-router";
 
 axios.defaults.baseURL = import.meta.env.VITE_API_URL;
+console.log("VITE_API_URL:", import.meta.env.VITE_API_URL);
 
 
 createRoot(document.getElementById('root')!).render(
