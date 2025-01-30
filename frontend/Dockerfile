@@ -10,8 +10,14 @@ COPY package.json package-lock.json ./
 # 安装依赖
 RUN npm install
 
-# 复制项目文件
+# 复制项目文件，包括 .env.production
 COPY . .
+
+# 设置生产环境变量（可选）
+ENV NODE_ENV=production
+
+# 确保 Vite 能读取 .env.production
+RUN cp .env.production .env
 
 # 构建前端
 RUN npm run build
