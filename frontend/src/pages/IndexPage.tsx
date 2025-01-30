@@ -44,7 +44,8 @@ function IndexPage() {
                     className="video"
                     width="100%"
                     height="100%"
-                    src={proVideo}
+                    // src={proVideo}
+                    src={"https://youtu.be/_NHuQ32dCpc"}
                     // controls
                     autoPlay
                     muted
