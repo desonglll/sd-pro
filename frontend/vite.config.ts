@@ -2,7 +2,7 @@ import {defineConfig} from "vite";
 import react from "@vitejs/plugin-react";
 import {loadEnv} from 'vite'
 
-export default ({mode}) => {
+export default ({mode}: { mode: string }) => {
     Object.assign(process.env, loadEnv(mode, process.cwd()))
 
     return defineConfig({
