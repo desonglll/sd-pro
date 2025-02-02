@@ -61,7 +61,7 @@ function CategoryIndexPage() {
                                                             cover={
                                                                 <img
                                                                     alt={toothItem.name}
-                                                                    src={toothItem.imageSrc}
+                                                                    src={axios.defaults.baseURL + toothItem.image}
                                                                 />
                                                             }
                                                         >

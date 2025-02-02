@@ -45,6 +45,7 @@ variant_types = [
 # 定义两个数字
 numbers = [100, 200]
 
+image = "/uploads/demo_bucket.jpg"
 image_src = "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg"
 
 fixture = []
@@ -69,6 +70,7 @@ for cat in categories:
                     "name": product_name,
                     "title": product_title,
                     "description": product_description,
+                    "image": image,
                     "image_src": image_src,
                     "category": cat_id
                 }

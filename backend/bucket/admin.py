@@ -5,7 +5,7 @@ from bucket.models import Tooth, Category, Series
 
 @admin.register(Tooth)
 class ToothAdmin(admin.ModelAdmin):
-    list_display = ["name"]
+    list_display = ["id", "name"]
     search_fields = ["name", "description"]
 
 

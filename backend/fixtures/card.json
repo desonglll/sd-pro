@@ -5,6 +5,7 @@
     "fields": {
       "name": "series",
       "title": "产品系列",
+      "image": "cards/demo_card.jpg",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "navs": [
         1

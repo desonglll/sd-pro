@@ -20,6 +20,7 @@ export interface ToothProps {
     model: ToothModelProps;
     description: string;
     category: CategoryProps;
+    image: string;
     imageSrc: string;
 }
 
@@ -48,6 +49,7 @@ export interface CardProps {
     id: number;
     title: string;
     content: string;
+    image: string;
     imageSrc: string;
     navs: NavProps[]
 }

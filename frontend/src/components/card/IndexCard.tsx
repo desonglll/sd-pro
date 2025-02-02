@@ -4,6 +4,7 @@ import "./CategoryCard.scss";
 import {useNavigate} from 'react-router-dom';
 import {RouterEndpoint} from "../../api/router-endpoint.ts";
 import {CardProps} from "../../props.ts";
+import axios from "axios";
 
 
 const IndexCard: React.FC<{ card: CardProps }> = ({card: card}) => {
@@ -35,7 +36,7 @@ const IndexCard: React.FC<{ card: CardProps }> = ({card: card}) => {
                             height: "100%"  // 确保占满高度
                         }}>
                             <Image
-                                src={card.imageSrc}
+                                src={axios.defaults.baseURL + card.image}
                                 alt={card.title}
                                 className="mining-image"
                                 preview={false}
@@ -100,7 +101,7 @@ const IndexCard: React.FC<{ card: CardProps }> = ({card: card}) => {
                         </Col>
                         <Col xs={24} md={12}>
                             <Image
-                                src={card.imageSrc}
+                                src={axios.defaults.baseURL + card.image}
                                 alt={card.title}
                                 className="mining-image"
                                 preview={false}

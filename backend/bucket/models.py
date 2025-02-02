@@ -51,6 +51,7 @@ class Tooth(models.Model):
         null=True,
         blank=True
     )
+    image = models.ImageField(upload_to="uploads/", null=True, blank=True)
     image_src = models.URLField(null=True, blank=True)
 
     def save(self, *args, **kwargs):
