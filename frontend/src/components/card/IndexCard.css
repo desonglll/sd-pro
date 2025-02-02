@@ -1,0 +1,102 @@
+.underground-mining-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 12px !important;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.underground-mining-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+.underground-mining-card:hover .mining-image {
+  transform: scale(1.03);
+}
+.underground-mining-card .mining-image {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+  object-fit: cover;
+  height: 280px;
+}
+.underground-mining-card h1 {
+  position: relative;
+  font-size: 1.8rem !important;
+  margin-bottom: 1.2rem !important;
+  padding-bottom: 0.8rem;
+}
+.underground-mining-card h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #d65d0e;
+  transition: width 0.3s ease;
+}
+.underground-mining-card h1 a {
+  color: #333 !important;
+  transition: color 0.3s ease;
+}
+.underground-mining-card h1 a:hover {
+  color: #d65d0e !important;
+}
+.underground-mining-card h1 a:hover + ::after {
+  width: 60px;
+}
+.underground-mining-card p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #495057 !important;
+  margin-bottom: 1.5rem;
+}
+.underground-mining-card .ant-tag {
+  margin: 4px 8px 4px 0;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: rgba(214, 93, 14, 0.1);
+  border-color: transparent;
+  transition: all 0.3s ease;
+}
+.underground-mining-card .ant-tag a {
+  color: #d65d0e !important;
+  font-weight: 500;
+}
+.underground-mining-card .ant-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(214, 93, 14, 0.2);
+}
+@media (max-width: 768px) {
+  .underground-mining-card .mining-image {
+    height: 200px;
+  }
+  .underground-mining-card h1 {
+    font-size: 1.5rem !important;
+  }
+  .underground-mining-card .ant-tag {
+    padding: 4px 10px;
+  }
+}
+
+.index-card {
+  opacity: 0;
+  animation: cardEntrance 0.6s ease forwards;
+}
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.index-card:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+.index-card:nth-child(even) {
+  animation-delay: 0.4s;
+}
+
+/*# sourceMappingURL=IndexCard.css.map */

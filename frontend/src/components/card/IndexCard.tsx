@@ -1,13 +1,16 @@
 import React, {useEffect} from "react";
 import {Card as AntCard, Image, Row, Col, Tag} from "antd";
-import "./CategoryCard.scss";
+import "./IndexCard.scss";
 import {useNavigate} from 'react-router-dom';
 import {RouterEndpoint} from "../../api/router-endpoint.ts";
 import {CardProps} from "../../props.ts";
 import axios from "axios";
 
 
-const IndexCard: React.FC<{ card: CardProps }> = ({card: card}) => {
+const IndexCard: React.FC<{
+    card: CardProps;
+    className?: string;  // 新增className属性
+}> = ({card, className}) => {  // 解构className
     const isOdd = card.id % 2 !== 0;
     const navigate = useNavigate()
     useEffect(() => {
@@ -18,7 +21,7 @@ const IndexCard: React.FC<{ card: CardProps }> = ({card: card}) => {
     return (
         <AntCard
             id={card.id.toString()}
-            className="underground-mining-card"
+            className={`underground-mining-card ${className || ""}`}
             style={{
                 backgroundColor: isOdd ? "rgb(240, 240, 240)" : "white",
             }}
@@ -59,8 +62,8 @@ const IndexCard: React.FC<{ card: CardProps }> = ({card: card}) => {
                                     <a
                                         onClick={(e) => {
                                             e.preventDefault(); // 阻止默认跳转行为
-                                            navigate(RouterEndpoint.categorySpecific, {
-                                                state: {category: item},
+                                            navigate(RouterEndpoint.category, {
+                                                state: {specificCategory: item},
                                             }); // 通过 React Router 跳转
                                         }}
                                         href={item.name} // 让鼠标样式变成链接
@@ -76,9 +79,7 @@ const IndexCard: React.FC<{ card: CardProps }> = ({card: card}) => {
                         <Col xs={24} md={12}>
                             <h1 style={{fontSize: "1.8rem", marginBottom: "16px"}}>
                                 <a onClick={() => {
-                                    navigate(RouterEndpoint.categorySpecific, {
-                                        state: {nav: card} // 通过 state 传递参数
-                                    })
+                                    navigate(RouterEndpoint.categorySpecific, {})
                                 }}>{card.title}</a></h1>
                             <p style={{fontSize: "1rem", lineHeight: "1.6", color: "#495057"}}>
                                 {card.content}
@@ -88,8 +89,8 @@ const IndexCard: React.FC<{ card: CardProps }> = ({card: card}) => {
                                     <a
                                         onClick={(e) => {
                                             e.preventDefault(); // 阻止默认跳转行为
-                                            navigate(RouterEndpoint.categorySpecific, {
-                                                state: {category: item},
+                                            navigate(RouterEndpoint.category, {
+                                                state: {specificCategory: item},
                                             }); // 通过 React Router 跳转
                                         }}
                                         href={item.slug} // 让鼠标样式变成链接
