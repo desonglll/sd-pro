@@ -14,7 +14,6 @@ const IndexCard: React.FC<{
     const isOdd = card.id % 2 !== 0;
     const navigate = useNavigate()
     useEffect(() => {
-        console.log(card)
     }, []);
 
 
@@ -63,7 +62,7 @@ const IndexCard: React.FC<{
                                         onClick={(e) => {
                                             e.preventDefault(); // 阻止默认跳转行为
                                             navigate(RouterEndpoint.category, {
-                                                state: {specificCategory: item},
+                                                state: {specificSeries: item},
                                             }); // 通过 React Router 跳转
                                         }}
                                         href={item.name} // 让鼠标样式变成链接
@@ -79,7 +78,7 @@ const IndexCard: React.FC<{
                         <Col xs={24} md={12}>
                             <h1 style={{fontSize: "1.8rem", marginBottom: "16px"}}>
                                 <a onClick={() => {
-                                    navigate(RouterEndpoint.categorySpecific, {})
+                                    navigate(RouterEndpoint.category, {})
                                 }}>{card.title}</a></h1>
                             <p style={{fontSize: "1rem", lineHeight: "1.6", color: "#495057"}}>
                                 {card.content}
@@ -90,7 +89,7 @@ const IndexCard: React.FC<{
                                         onClick={(e) => {
                                             e.preventDefault(); // 阻止默认跳转行为
                                             navigate(RouterEndpoint.category, {
-                                                state: {specificCategory: item},
+                                                state: {specificSeries: item},
                                             }); // 通过 React Router 跳转
                                         }}
                                         href={item.slug} // 让鼠标样式变成链接

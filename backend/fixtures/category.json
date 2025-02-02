@@ -15,18 +15,6 @@
     "model": "bucket.category",
     "pk": 2,
     "fields": {
-      "name": "dayu-series",
-      "title": "大宇系列",
-      "description": "大宇系列描述",
-      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
-      "series": 2,
-      "slug": "dayu-series"
-    }
-  },
-  {
-    "model": "bucket.category",
-    "pk": 3,
-    "fields": {
       "name": "dayu220",
       "title": "大宇220",
       "description": "大宇220描述",
@@ -37,7 +25,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 4,
+    "pk": 3,
     "fields": {
       "name": "dayu280",
       "title": "大宇280",
@@ -49,7 +37,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 5,
+    "pk": 4,
     "fields": {
       "name": "dayu300",
       "title": "大宇300",
@@ -61,7 +49,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 6,
+    "pk": 5,
     "fields": {
       "name": "dayu360",
       "title": "大宇360",
@@ -73,7 +61,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 7,
+    "pk": 6,
     "fields": {
       "name": "dayu500",
       "title": "大宇500",
@@ -85,19 +73,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 8,
-    "fields": {
-      "name": "cater-series",
-      "title": "卡特系列",
-      "description": "卡特系列描述",
-      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
-      "series": 3,
-      "slug": "cater-series"
-    }
-  },
-  {
-    "model": "bucket.category",
-    "pk": 9,
+    "pk": 7,
     "fields": {
       "name": "cater312",
       "title": "卡特312",
@@ -109,7 +85,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 10,
+    "pk": 8,
     "fields": {
       "name": "cater320",
       "title": "卡特320",
@@ -121,7 +97,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 11,
+    "pk": 9,
     "fields": {
       "name": "cater325",
       "title": "卡特325",
@@ -133,7 +109,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 12,
+    "pk": 10,
     "fields": {
       "name": "cater330",
       "title": "卡特330",
@@ -145,7 +121,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 13,
+    "pk": 11,
     "fields": {
       "name": "cater345",
       "title": "卡特345",
@@ -157,7 +133,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 14,
+    "pk": 12,
     "fields": {
       "name": "hitachi-series",
       "title": "日立系列",
@@ -169,19 +145,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 15,
-    "fields": {
-      "name": "kobelco-series",
-      "title": "神钢系列",
-      "description": "神钢系列描述",
-      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
-      "series": 5,
-      "slug": "kobelco-series"
-    }
-  },
-  {
-    "model": "bucket.category",
-    "pk": 16,
+    "pk": 13,
     "fields": {
       "name": "kobelco60",
       "title": "神钢60",
@@ -193,7 +157,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 17,
+    "pk": 14,
     "fields": {
       "name": "kobelco200",
       "title": "神钢200",
@@ -205,7 +169,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 18,
+    "pk": 15,
     "fields": {
       "name": "kobelco230",
       "title": "神钢230",
@@ -217,7 +181,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 19,
+    "pk": 16,
     "fields": {
       "name": "kobelco350",
       "title": "神钢350",
@@ -229,19 +193,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 20,
-    "fields": {
-      "name": "volvo-series",
-      "title": "沃尔沃系列",
-      "description": "沃尔沃系列描述",
-      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
-      "series": 6,
-      "slug": "volvo-series"
-    }
-  },
-  {
-    "model": "bucket.category",
-    "pk": 21,
+    "pk": 17,
     "fields": {
       "name": "volvo210",
       "title": "沃210",
@@ -253,7 +205,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 22,
+    "pk": 18,
     "fields": {
       "name": "volvo290",
       "title": "沃290",
@@ -265,7 +217,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 23,
+    "pk": 19,
     "fields": {
       "name": "volvo360",
       "title": "沃360",
@@ -277,7 +229,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 24,
+    "pk": 20,
     "fields": {
       "name": "hyundai-series",
       "title": "现代系列",
@@ -289,19 +241,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 25,
-    "fields": {
-      "name": "komatsu-series",
-      "title": "小松系列",
-      "description": "小松系列描述",
-      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
-      "series": 8,
-      "slug": "komatsu-series"
-    }
-  },
-  {
-    "model": "bucket.category",
-    "pk": 26,
+    "pk": 21,
     "fields": {
       "name": "komatsu60",
       "title": "小松60",
@@ -313,7 +253,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 27,
+    "pk": 22,
     "fields": {
       "name": "komatsu100",
       "title": "小松100",
@@ -325,7 +265,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 28,
+    "pk": 23,
     "fields": {
       "name": "komatsu200",
       "title": "小松200",
@@ -337,7 +277,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 29,
+    "pk": 24,
     "fields": {
       "name": "komatsu300",
       "title": "小松300",
@@ -349,7 +289,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 30,
+    "pk": 25,
     "fields": {
       "name": "komatsu400",
       "title": "小松400",
@@ -361,7 +301,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 31,
+    "pk": 26,
     "fields": {
       "name": "xiaozi",
       "title": "销子",
@@ -373,7 +313,7 @@
   },
   {
     "model": "bucket.category",
-    "pk": 32,
+    "pk": 27,
     "fields": {
       "name": "combined",
       "title": "组合",
