@@ -1,30 +1,49 @@
 .top-menu-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
   background-color: #fbf1c7;
   height: 7vh;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.top-menu-header + .header-placeholder {
+  height: 7vh;
+  visibility: hidden;
 }
 .top-menu-header .logo-container {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .top-menu-header .logo-container .logo {
   height: 48px;
   margin-right: 16px;
+  transition: transform 0.3s ease;
+}
+.top-menu-header .logo-container .logo:hover {
+  transform: scale(1.05);
 }
 .top-menu-header .top-menu {
   flex: 1;
+  min-width: 400px;
   justify-content: flex-end;
-  background-color: #fbf1c7;
-  height: 100%;
+  background-color: transparent !important;
+  border-bottom: none !important;
 }
 .top-menu-header .top-menu .ant-menu-item {
-  margin: 0 8px;
+  margin: 0 12px !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
-.top-menu-header .top-menu .ant-menu-submenu {
-  margin: 0 8px;
+.top-menu-header .top-menu .ant-menu-item:hover {
+  color: #d65d0e !important;
+  transform: translateY(-2px);
 }
 
 /*# sourceMappingURL=TopMenu.css.map */

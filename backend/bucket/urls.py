@@ -1,9 +1,9 @@
 from django.urls import path
 
-from bucket.views import ListCategories, CategoryItemList
-from card.views import ListCards
+from bucket.views import ListCategory, ListTooth, ListSeries
 
 urlpatterns = [
-    path("category/", ListCategories.as_view()),
-    path("teeth_with_category_id/", CategoryItemList.as_view()),
+    path("category/", ListCategory.as_view()),
+    path("tooth/", ListTooth.as_view()),
+    path("series/", ListSeries.as_view()),
 ]

@@ -1,21 +1,21 @@
 from django.contrib import admin
 
-from bucket.models import Tooth, ToothModel, Category
+from bucket.models import Tooth, Category, Series
 
 
 @admin.register(Tooth)
 class ToothAdmin(admin.ModelAdmin):
-    list_display = ["name", "model"]
-    search_fields = ["name", "model__name", "description"]
-
-
-@admin.register(ToothModel)
-class ToothModelAdmin(admin.ModelAdmin):
-    list_display = ["name", "company"]
-    search_fields = ["name", "company"]
+    list_display = ["name"]
+    search_fields = ["name", "description"]
 
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ["name"]
+    list_display = ["name", "title"]
+    search_fields = ["name", "title"]
+
+
+@admin.register(Series)
+class SeriesAdmin(admin.ModelAdmin):
+    list_display = ["name", "title"]
     search_fields = ["name"]

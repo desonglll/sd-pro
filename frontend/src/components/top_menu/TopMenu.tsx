@@ -5,26 +5,9 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 import {useNavigate} from "react-router-dom"
 import {RouterEndpoint} from "../../api/router-endpoint.ts";
+import {Information} from "../../props.ts";
 
 const {Header} = Layout;
-
-export interface Member {
-    id: number; // Django 默认会有 id 字段
-    name: string;
-    phone: string;
-    email: string;
-}
-
-export interface Information {
-    id: number; // Django 默认会有 id 字段
-    company_name: string;
-    manager: Member | undefined; // ForeignKey 指向 Member
-    email: string;
-    phone: string;
-    address: string;
-    member: Member[]; // ManyToManyField 是一个数组
-    available: boolean;
-}
 
 function TopMenu() {
     const [info, setInfo] = useState<Information>({
@@ -101,6 +84,8 @@ function TopMenu() {
                         onClick={onClick}
                     />
                 </Header>
+                <div className="header-placeholder"/>
+
             </>
         )
     );

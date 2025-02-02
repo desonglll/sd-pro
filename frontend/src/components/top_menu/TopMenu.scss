@@ -1,33 +1,56 @@
+// TopMenu.scss
 .top-menu-header {
+  position: fixed; // 固定定位
+  top: 0;
+  left: 0;
+  z-index: 1000; // 确保在页面最顶层
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
-  background-color: #fbf1c7; // 设置整个 Header 背景颜色
+  background-color: #fbf1c7;
   height: 7vh;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // 添加阴影增加层次感
+
+  // 添加占位元素样式（在组件中需要添加对应HTML元素）
+  + .header-placeholder {
+    height: 7vh; // 与header高度一致
+    visibility: hidden;
+  }
 
   .logo-container {
     display: flex;
     align-items: center;
+    cursor: pointer; // 明确可点击状态
 
     .logo {
       height: 48px;
       margin-right: 16px;
+      transition: transform 0.3s ease; // 添加hover动画
+
+      &:hover {
+        transform: scale(1.05);
+      }
     }
   }
 
   .top-menu {
     flex: 1;
+    min-width: 400px; // 防止内容过少时菜单塌陷
     justify-content: flex-end;
-    background-color: #fbf1c7; // 设置 Menu 背景颜色与 Header 一致
-    height: 100%;
+    background-color: transparent !important; // 覆盖antd默认背景色
+    border-bottom: none !important;
 
     .ant-menu-item {
-      margin: 0 8px;
-    }
+      margin: 0 12px !important; // 增大间距
+      font-weight: 500;
+      transition: all 0.2s ease;
 
-    .ant-menu-submenu {
-      margin: 0 8px;
+      &:hover {
+        color: #d65d0e !important; // 品牌色hover效果
+        transform: translateY(-2px);
+      }
     }
   }
 }

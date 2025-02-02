@@ -1,15 +1,25 @@
 from rest_framework import serializers
 
-from bucket.models import Tooth, Category
+from bucket.models import Tooth, Category, Series
 
 
-class ToothSerializer(serializers.ModelSerializer):
+class SeriesSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Tooth
-        fields = ["id", "name", "model", "description", "category", "image_src"]
+        model = Series
+        fields = "__all__"
 
 
 class CategorySerializer(serializers.ModelSerializer):
+    series = SeriesSerializer()
+
     class Meta:
         model = Category
-        fields = ["id", "name", "title", "description", "image_src", "slug"]
+        fields = "__all__"
+
+
+class ToothSerializer(serializers.ModelSerializer):
+    category = CategorySerializer()
+
+    class Meta:
+        model = Tooth
+        fields = "__all__"

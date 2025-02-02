@@ -1,33 +1,33 @@
 // import proVideo from "../assets/pro.mov";
 import {Anchor} from "antd";
-import CategoryCard, {CategoryProps} from "../components/card/CategoryCard.tsx";
+import IndexCard from "../components/card/IndexCard.tsx";
 import {useEffect, useState} from "react";
 import axios from "axios";
 import {BackendEndpoint} from "../api/backend-endpoint.ts";
+import {CardProps} from "../props.ts";
 
-const productData: CategoryProps[] = [
+const productData: CardProps[] = [
     {
         id: 1,
         title: "ESCO® Underground Mining Products",
-        description:
+        content:
             "We have engineered and produced buckets for mining and construction markets for over 90 years. We use that expertise to design and manufacture direct replacement buckets for all popular LHD machines. Custom-engineered to meet application needs, we offer advanced LHD buckets fabricated to exacting standards with the finest materials available. In addition, there is a line of ESCO® underground mining products including drums, cutting heads, and cutting and trenching chain.",
         imageSrc:
             "https://www.global.weir/globalassets/category-and-sub-category-images/esco-category-page-images/ESCO_Cable_Shovel_Wear_Parts.jpg",
-        slug: "esco-underground-mining-products"
+        navs: []
     },
     // 可以在这里添加更多的产品数据
 ];
 
 function IndexPage() {
-    const [cards, setCards] = useState<CategoryProps[]>(productData)
+    const [cards, setCards] = useState<CardProps[]>(productData)
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         try {
-            axios.get(BackendEndpoint.bucketCategory).then((response) => {
+            axios.get(BackendEndpoint.card).then((response) => {
                 if (response.status === 200) {
                     // 使用类型断言将 response.data 转换为 Card[]
-                    console.log(response.data);
                     setCards(response.data);
                 }
             }).finally(() => {
@@ -87,9 +87,9 @@ function IndexPage() {
             />
             {/* Card 列表 */}
             {cards.map((item) => (
-                <CategoryCard
+                <IndexCard
                     key={item.id}
-                    category={item}
+                    card={item}
                 />
             ))}
         </>

@@ -1,0 +1,23 @@
+[
+  {
+    "model": "card.nav",
+    "pk": 1,
+    "fields": {
+      "name": "series",
+      "title": "产品系列",
+      "series": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "slug": "series"
+    }
+  }
+]

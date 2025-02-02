@@ -1,13 +1,25 @@
+from django.db.models import Q
 from djangorestframework_camel_case.parser import CamelCaseJSONParser
 from djangorestframework_camel_case.render import CamelCaseJSONRenderer
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from bucket.models import Category, Tooth
-from bucket.serializer import CategorySerializer, ToothSerializer
+from bucket.models import Category, Tooth, Series
+from bucket.serializer import CategorySerializer, ToothSerializer, SeriesSerializer
 
 
-class ListCategories(APIView):
+class ListSeries(APIView):
+    serializer_class = SeriesSerializer
+    parser_classes = [CamelCaseJSONParser]
+    renderer_classes = [CamelCaseJSONRenderer]
+
+    def get(self, request):
+        series = Series.objects.all()
+        result = self.serializer_class(series, many=True).data
+        return Response(result)
+
+
+class ListCategory(APIView):
     serializer_class = CategorySerializer
     parser_classes = [CamelCaseJSONParser]
     renderer_classes = [CamelCaseJSONRenderer]
@@ -18,12 +30,24 @@ class ListCategories(APIView):
         return Response(result)
 
 
-class CategoryItemList(APIView):
+class ListTooth(APIView):
     serializer_class = ToothSerializer
     parser_classes = [CamelCaseJSONParser]
     renderer_classes = [CamelCaseJSONRenderer]
 
     def get(self, request):
-        teeth_with_category_id = Tooth.objects.filter(category__id=request.GET.get('categoryId'))
-        result = self.serializer_class(teeth_with_category_id, many=True).data
+        required_name = request.GET.get('name', '').strip()
+        required_title = request.GET.get('title', '').strip()
+        required_category_id = request.GET.get('categoryId', '').strip()
+
+        query = Q()
+        if required_category_id:
+            query &= Q(category__id=required_category_id)
+        if required_name:
+            query &= Q(name__icontains=required_name)
+        if required_title:
+            query &= Q(title__icontains=required_title)
+        # 构造 queryset
+        qs = Tooth.objects.filter(query)
+        result = self.serializer_class(qs, many=True).data
         return Response(result)

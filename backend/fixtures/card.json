@@ -1,0 +1,15 @@
+[
+  {
+    "model": "card.card",
+    "pk": 1,
+    "fields": {
+      "name": "series",
+      "title": "产品系列",
+      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
+      "navs": [
+        1
+      ],
+      "slug": "series"
+    }
+  }
+]
