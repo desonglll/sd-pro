@@ -8,7 +8,7 @@ class Nav(models.Model):
     name = models.CharField(max_length=100, default="Unnamed Nav")
     title = models.CharField(max_length=100)
     series = models.ManyToManyField(Series, blank=True)
-    slug = models.SlugField(max_length=100, null=True, blank=True)
+    slug = models.SlugField(max_length=100, null=True, blank=True, unique=True)
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
@@ -29,9 +29,8 @@ class Card(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField(null=True, blank=True)
     image = models.ImageField(upload_to="cards/", null=True, blank=True)
-    image_src = models.URLField(null=True, blank=True)
     navs = models.ManyToManyField(Nav, related_name="navs", blank=True)
-    slug = models.SlugField(max_length=100, null=True, blank=True)
+    slug = models.SlugField(max_length=100, null=True, blank=True, unique=True)
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)

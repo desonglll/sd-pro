@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.text import slugify
 
 from bucket.models import Tooth
 
@@ -24,3 +25,32 @@ class Information(models.Model):
 
     def __str__(self):
         return self.company_name
+
+
+class AboutUs(models.Model):
+    title = models.CharField(max_length=100, default="About Us")
+    content = models.TextField(null=True, blank=True)
+    slug = models.SlugField(max_length=100, unique=True, blank=True)
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.title)
+        super().save(*args, **kwargs)
+
+    class Meta:
+        verbose_name_plural = "About Us"
+
+    def __str__(self):
+        return self.title
+
+
+class AboutUsImage(models.Model):
+    about_us = models.ForeignKey(AboutUs, on_delete=models.CASCADE, related_name="images")
+    image = models.ImageField(upload_to="about_us_images/")
+    caption = models.CharField(max_length=255, blank=True, null=True)  # 图片的标题或描述（可选）
+
+    class Meta:
+        verbose_name_plural = "About Us Images"
+
+    def __str__(self):
+        return f"Image for {self.about_us.title}"

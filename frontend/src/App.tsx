@@ -6,6 +6,8 @@ import IndexPage from "./pages/IndexPage.tsx";
 import CategoryPage from "./pages/CategoryPage.tsx";
 import {RouterEndpoint} from "./api/router-endpoint.ts";
 import TopMenu from "./components/top_menu/TopMenu.tsx";
+import OrderForm from "./components/order/OrderForm.tsx";
+import AboutUs from "./pages/about/AboutUs.tsx";
 
 
 const App: React.FC = () => {
@@ -16,8 +18,9 @@ const App: React.FC = () => {
             <Routes>
                 <Route path={"/"} element={<IndexPage/>}/>
                 <Route path={`/${RouterEndpoint.category}*`} element={<CategoryPage/>}/>
+                <Route path={"/order"} element={<OrderForm/>}/>
+                <Route path={"/about"} element={<AboutUs/>}/>
             </Routes>
-            {/*<Footer/>*/}
         </>
     );
 };

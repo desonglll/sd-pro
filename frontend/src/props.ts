@@ -51,7 +51,8 @@ export interface CardProps {
     content: string;
     image: string;
     imageSrc: string;
-    navs: NavProps[]
+    navs: NavProps[];
+    slug: string;
 }
 
 export interface Member {

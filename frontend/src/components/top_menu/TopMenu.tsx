@@ -1,15 +1,15 @@
-import {Layout, Menu, Image, MenuProps,} from "antd";
+import React, {useEffect, useState} from "react";
+import {Layout, Menu, Image, MenuProps} from "antd";
+import {useNavigate} from "react-router-dom";
+import axios from "axios";
 import "./TopMenu.scss";
 import logo from "../../assets/logo.jpg";
-import {useEffect, useState} from "react";
-import axios from "axios";
-import {useNavigate} from "react-router-dom"
-import {RouterEndpoint} from "../../api/router-endpoint.ts";
-import {Information} from "../../props.ts";
+import {RouterEndpoint} from "../../api/router-endpoint";
+import {Information} from "../../props";
 
 const {Header} = Layout;
 
-function TopMenu() {
+const TopMenu: React.FC = () => {
     const [info, setInfo] = useState<Information>({
         address: "",
         available: false,
@@ -21,8 +21,7 @@ function TopMenu() {
         phone: "15006905606",
     });
     const [loading, setLoading] = useState(true);
-
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     useEffect(() => {
         axios
@@ -32,7 +31,7 @@ function TopMenu() {
                     const information = response.data as Information[];
                     information.forEach((item) => {
                         if (item.available) {
-                            setInfo(item as Information);
+                            setInfo(item);
                         }
                     });
                 }
@@ -41,54 +40,54 @@ function TopMenu() {
                 setLoading(false);
             });
     }, []);
-    const menuItems: MenuProps['items'] = [
+
+    const menuItems: MenuProps["items"] = [
         {
             key: RouterEndpoint.category,
-            label: (<a>Category</a>)
+            label: <a>Category</a>,
         },
         {
-            key: 'email',
+            key: "email",
             label: (
-                <a type={"link"} href={`mailto:${info.email}`}>
+                <a href={`mailto:${info.email}`} type="link">
                     Mail
                 </a>
-            )
+            ),
         },
         {
-            key: 'phone',
+            key: "phone",
             label: (
-                <a type={"link"} href={`tel:${info.phone}`}>
+                <a href={`tel:${info.phone}`} type="link">
                     Phone
                 </a>
-            )
+            ),
         },
-    ]
-    const onClick: MenuProps['onClick'] = (e) => {
-        console.log('click ', e);
-        navigate(e.key)
-    };
-    return (
-        !loading && (
-            <>
-                <Header className="top-menu-header">
-                    <div className="logo-container">
-                        <Image src={logo} alt="Logo" className="logo" preview={false} onClick={() => {
-                            navigate("/")
-                        }}/>
-                    </div>
-                    <Menu
-                        mode="horizontal"
-                        className="top-menu"
-                        theme="light"
-                        items={menuItems}  // 使用 items 属性
-                        onClick={onClick}
-                    />
-                </Header>
-                <div className="header-placeholder"/>
+    ];
 
-            </>
-        )
+    const onClick: MenuProps["onClick"] = (e) => {
+        console.log("click ", e);
+        navigate(e.key);
+    };
+
+    if (loading) return null;
+
+    return (
+        <>
+            <Header className="top-menu-header">
+                <div className="logo-container" onClick={() => navigate("/")}>
+                    <Image src={logo} alt="Logo" className="logo" preview={false}/>
+                </div>
+                <Menu
+                    mode="horizontal"
+                    className="top-menu"
+                    theme="light"
+                    items={menuItems}
+                    onClick={onClick}
+                />
+            </Header>
+            {/*<div className="header-placeholder"/>*/}
+        </>
     );
-}
+};
 
 export default TopMenu;

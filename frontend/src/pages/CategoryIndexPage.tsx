@@ -5,6 +5,7 @@ import {CategoryProps, SeriesProps, ToothProps} from "../props.ts";
 import "./CategoryIndexPage.scss"
 import {useLocation} from "react-router";
 import {Card, Layout, Menu, MenuProps} from "antd";
+import Divider from "../components/skeleton/DividerLeftRight.tsx";
 
 
 function CategoryIndexPage() {
@@ -75,7 +76,7 @@ function CategoryIndexPage() {
         !loading && (
             <>
                 <Layout style={{display: 'flex', flexDirection: 'row', height: '93vh'}}>
-                    <Layout style={{width: "20%"}}>
+                    <Divider>
                         <Menu items={
                             [
                                 {
@@ -100,8 +101,6 @@ function CategoryIndexPage() {
                               onClick={onClickMenu}
                               style={{height: '100%', width: '100%'}}
                         />
-                    </Layout>
-                    <Layout style={{width: "80%", overflowY: "auto"}}>
                         <Card>
                             {displayTooth.map((t) => (
                                 <Card.Grid key={t.id}>
@@ -113,7 +112,7 @@ function CategoryIndexPage() {
                                 </Card.Grid>
                             ))}
                         </Card>
-                    </Layout>
+                    </Divider>
                 </Layout>
             </>
         )

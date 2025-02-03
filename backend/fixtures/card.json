@@ -3,14 +3,50 @@
     "model": "card.card",
     "pk": 1,
     "fields": {
-      "name": "series",
+      "name": "category",
       "title": "产品系列",
+      "content": "欢迎进入顺德机械配件产品系列版块！我们提供丰富的工程机械配件，涵盖卡特、小松等多个知名品牌的不同型号斗齿，满足各种施工需求。无论是耐磨型、强化型还是标准型斗齿，这里都能找到适合您的产品。通过本版块，您可以快速浏览各类配件，了解产品详情，助力设备高效运作！",
       "image": "cards/demo_card.jpg",
-      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "navs": [
         1
       ],
-      "slug": "series"
+      "slug": "category"
+    }
+  },
+  {
+    "model": "card.card",
+    "pk": 2,
+    "fields": {
+      "name": "about",
+      "title": "关于我们",
+      "content": "日照顺德机械配件有限公司位于山东省日照市莒县工业园，毗临206国道、335省道，北有兰新铁路二级转运站，南有日东高速，交通便捷，环境优美，是中外客商投资兴业的理想场所。\n日照顺德机械配件有限公司主营挖掘机斗齿、齿根，边齿等。企业拥有机械加工设备和先进的理化分析检测设备，能生产各种型号挖掘机斗齿，如小松、日立、大宇、神钢、卡特等机型的配套斗齿，能满足客户对不同等级的产品质量和理化性能的全方位要求。",
+      "image": "cards/demo_about.jpg",
+      "navs": [],
+      "slug": "about"
+    }
+  },
+  {
+    "model": "card.card",
+    "pk": 3,
+    "fields": {
+      "name": "news",
+      "title": "公司新闻",
+      "content": "欢迎来到顺德机械配件新闻版块！这里为您精心呈现行业内最新的动态和权威资讯，包括技术革新、市场趋势、重大项目及企业动态等内容。通过这张预览卡，您可以快速捕捉到最前沿的信息，全面了解顺德机械配件领域的最新进展，为您的决策和研究提供及时、准确的参考。",
+      "image": "cards/demo_news.jpg",
+      "navs": [],
+      "slug": "news"
+    }
+  },
+  {
+    "model": "card.card",
+    "pk": 4,
+    "fields": {
+      "name": "environment",
+      "title": "环境治理",
+      "content": "在顺德机械配件，我们始终关注环境治理，致力于在生产过程中践行绿色制造理念。本版块展示了我们在废气处理、污水净化、噪音控制及资源回收等方面的环保举措，确保生产与环境和谐共存。通过持续优化工艺、采用环保材料，我们不断提升可持续发展能力，为行业树立绿色标杆。",
+      "image": "cards/demo_environment.jpg",
+      "navs": [],
+      "slug": "environment"
     }
   }
 ]

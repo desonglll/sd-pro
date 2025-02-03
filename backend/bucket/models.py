@@ -20,7 +20,7 @@ class Category(models.Model):
     title = models.CharField(unique=True, max_length=255, blank=True, null=True)
     description = models.TextField(null=True, blank=True)
     image_src = models.URLField(null=True, blank=True)
-    slug = models.SlugField(max_length=255, null=True, blank=True)
+    slug = models.SlugField(max_length=255, null=True, blank=True, unique=True)
     series = models.ForeignKey(Series, on_delete=models.CASCADE)
 
     def save(self, *args, **kwargs):
