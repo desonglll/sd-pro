@@ -43,6 +43,7 @@ const OrderForm: React.FC = () => {
         console.log("订单信息提交成功：", res.data);
       });
     message.success("订单信息已提交！");
+    form.resetFields();
   };
 
   const onFinishFailed: FormProps<OrderFormValues>["onFinishFailed"] = (
