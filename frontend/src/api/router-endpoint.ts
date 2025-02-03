@@ -1,5 +1,6 @@
 export enum RouterEndpoint {
-    category = 'category/',
-    specific = 'specific/',
-    categorySpecific = 'category/specific/',
+  category = "category/",
+  specific = "specific/",
+  order = "order/",
+  categorySpecific = "category/specific/",
 }
