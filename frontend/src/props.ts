@@ -50,7 +50,6 @@ export interface CardProps {
     title: string;
     content: string;
     image: string;
-    imageSrc: string;
     navs: NavProps[];
     slug: string;
 }

@@ -14,9 +14,8 @@ const productData: CardProps[] = [
         content:
             "We have engineered and produced buckets for mining and construction markets for over 90 years. We use that expertise to design and manufacture direct replacement buckets for all popular LHD machines. Custom-engineered to meet application needs, we offer advanced LHD buckets fabricated to exacting standards with the finest materials available. In addition, there is a line of ESCO® underground mining products including drums, cutting heads, and cutting and trenching chain.",
         image: "cards/demo_card.jpg",
-        imageSrc:
-            "https://www.global.weir/globalassets/category-and-sub-category-images/esco-category-page-images/ESCO_Cable_Shovel_Wear_Parts.jpg",
-        navs: []
+        navs: [],
+        slug: "demo"
     },
     // 可以在这里添加更多的产品数据
 ];
