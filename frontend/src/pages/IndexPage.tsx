@@ -5,6 +5,7 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 import {BackendEndpoint} from "../api/backend-endpoint.ts";
 import {CardProps} from "../props.ts";
+import Footer from "../components/skeleton/Footer.tsx";
 
 const productData: CardProps[] = [
     {
@@ -76,6 +77,7 @@ function IndexPage() {
                     card={item}
                 />
             ))}
+            <Footer/>
         </>
     )
 }

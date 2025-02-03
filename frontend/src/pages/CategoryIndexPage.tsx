@@ -17,6 +17,7 @@ function CategoryIndexPage() {
     const [selectedKey, setSelectedKey] = useState<string>("")
     const [openKey, setOpenKey] = useState<string>("")
     const [loading, setLoading] = useState(true)
+
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -46,6 +47,7 @@ function CategoryIndexPage() {
                         ))
                         setDisplayTooth(a);
                     } else {
+                        setSelectedKey("a")
                         setDisplayTooth(toothRes.data)
                     }
                 }
