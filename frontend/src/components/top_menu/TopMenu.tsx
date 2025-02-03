@@ -83,6 +83,7 @@ const TopMenu: React.FC = () => {
                     theme="light"
                     items={menuItems}
                     onClick={onClick}
+
                 />
             </Header>
             {/*<div className="header-placeholder"/>*/}

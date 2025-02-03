@@ -7,5 +7,14 @@
       "image": "about_us_images/demo_about.jpg",
       "caption": "关于我们"
     }
+  },
+  {
+    "model": "information.aboutusimage",
+    "pk": 2,
+    "fields": {
+      "about_us": 1,
+      "image": "cards/demo_card.jpg",
+      "caption": "斗齿"
+    }
   }
 ]

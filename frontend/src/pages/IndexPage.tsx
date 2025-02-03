@@ -59,7 +59,6 @@ function IndexPage() {
                 ></iframe>
             </div>
 
-
             <Anchor className="anchor" direction="horizontal"
                     items={cards.map((item) => (
                         {

@@ -41,39 +41,6 @@
   transform: translate(-50%, -50%) scale(1.02);
 }
 
-.anchor {
-  position: sticky;
-  top: 7vh;
-  z-index: 900;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  padding: 1rem 2rem;
-  margin: -1rem auto 2rem;
-  max-width: 1200px;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-.anchor .ant-anchor-link {
-  padding: 0 1.5rem;
-}
-.anchor .ant-anchor-link-title {
-  font-weight: 500;
-  color: #666;
-  transition: all 0.3s ease;
-}
-.anchor .ant-anchor-link-title:hover {
-  color: #d65d0e;
-  transform: translateY(-2px);
-}
-.anchor .ant-anchor-link-active .anchor .ant-anchor-link-title {
-  color: #d65d0e;
-}
-.anchor .ant-anchor-link-active .anchor .ant-anchor-link-title::after {
-  background: #d65d0e;
-  height: 2px;
-  bottom: -4px;
-}
-
 .index-card-container {
   display: grid;
   gap: 2rem;

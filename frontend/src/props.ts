@@ -72,3 +72,18 @@ export interface Information {
     available: boolean;
 }
 
+export interface AboutUsImageProps {
+    id: number;
+    image: string;
+    caption: string;
+    aboutUs: number
+}
+
+export interface AboutUsProps {
+    id: number;
+    images: AboutUsImageProps[];
+    name: string;
+    title: string;
+    content: string;
+    slug: string;
+}

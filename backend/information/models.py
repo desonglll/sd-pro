@@ -28,13 +28,14 @@ class Information(models.Model):
 
 
 class AboutUs(models.Model):
+    name = models.CharField(max_length=100, default="about us")
     title = models.CharField(max_length=100, default="About Us")
     content = models.TextField(null=True, blank=True)
     slug = models.SlugField(max_length=100, unique=True, blank=True)
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            self.slug = slugify(self.title)
+            self.slug = slugify(self.name)
         super().save(*args, **kwargs)
 
     class Meta:
