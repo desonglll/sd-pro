@@ -23,13 +23,15 @@ from django.urls import path, include
 import bucket.urls
 import card.urls
 import information.urls
+import order.urls
 from sd_pro import settings
 
 urlpatterns = ([
                    path('admin/', admin.site.urls),
                    path("card/", include(card.urls)),
                    path("bucket/", include(bucket.urls)),
-                   path("info/", include(information.urls))
+                   path("info/", include(information.urls)),
+                   path("order/", include(order.urls))
                ]
                + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
                + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT))

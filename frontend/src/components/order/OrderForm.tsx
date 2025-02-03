@@ -11,11 +11,13 @@ import {
 } from "antd";
 import "./OrderForm.scss";
 import dayjs from "dayjs";
+import axios from "axios";
+import { BackendEndpoint } from "../../api/backend-endpoint";
 
 interface OrderFormValues {
-  orderId: string;
   customerName: string;
   phone: string;
+  email: string;
   orderType: "online" | "offline";
   orderDate: string;
   productName: string;
@@ -32,6 +34,14 @@ const OrderForm: React.FC = () => {
     console.log(dayjs(values.orderDate).format("YYYY-MM-DD"));
 
     console.log("表单提交成功，数据：", values);
+    axios
+      .post(BackendEndpoint.orderSubmit, {
+        ...values,
+        orderDate: dayjs(values.orderDate).format("YYYY-MM-DD"),
+      })
+      .then((res) => {
+        console.log("订单信息提交成功：", res.data);
+      });
     message.success("订单信息已提交！");
   };
 

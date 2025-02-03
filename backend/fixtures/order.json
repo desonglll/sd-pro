@@ -1,0 +1,16 @@
+[
+  {
+    "model": "order.order",
+    "pk": 1,
+    "fields": {
+      "customer_name": "Mike Shinoda",
+      "phone": "18763386500",
+      "email": "lindesong666@gmail.com",
+      "order_type": "online",
+      "order_date": "2025-02-03",
+      "product_name": "CAT001",
+      "quantity": 100,
+      "remarks": "Good!"
+    }
+  }
+]
