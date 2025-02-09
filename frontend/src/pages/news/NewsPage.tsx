@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import type { CardProps } from "../../props";
-import IndexCard from "../../components/card/IndexCard";
+import NewsCard from "../../components/card/NewsCard";
 // export interface CardProps {
 //     id: number;
 //     title: string;
@@ -46,7 +46,7 @@ function NewsPage() {
     !loading && (
       <div>
         {newsCards.map((item) => (
-          <IndexCard key={item.id} card={item} />
+          <NewsCard key={item.id} card={item} />
         ))}
       </div>
     )

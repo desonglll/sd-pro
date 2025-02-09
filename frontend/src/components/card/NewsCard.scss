@@ -1,0 +1,90 @@
+.index-card {
+  transition: all 0.4s ease-in-out;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .ant-image {
+    width: 100%;
+  }
+
+  .mining-image {
+    transition: transform 0.4s ease-in-out, opacity 0.3s;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 280px;
+    width: 100%;
+
+    &:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+    transition: color 0.3s;
+
+    a {
+      color: #333;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #d65d0e;
+      }
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 1.2rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .clickable-tag {
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: rgba(214, 93, 14, 0.1);
+    border: none;
+    transition: all 0.3s ease;
+
+    a {
+      color: #d65d0e;
+      font-weight: 500;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(214, 93, 14, 0.2);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .mining-image {
+      height: 200px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}

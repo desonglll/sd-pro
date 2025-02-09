@@ -87,3 +87,18 @@ export interface AboutUsProps {
     content: string;
     slug: string;
 }
+
+export interface NewsImageProps {
+    id: number;
+    image: string;
+    caption: string;
+    news: number
+}
+
+export interface NewsProps {
+    id: number;
+    title: string;
+    content: string;
+    images: NewsImageProps[];
+    slug: string;
+}

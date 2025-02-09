@@ -4,5 +4,6 @@ export enum BackendEndpoint {
   tooth = "bucket/tooth/",
   card = "card/",
   aboutUs = "info/about/",
+  news = "news/",
   orderSubmit = "order/order/",
 }

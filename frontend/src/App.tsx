@@ -9,6 +9,7 @@ import AboutUs from "./pages/about/AboutUs.tsx";
 import { Layout } from "antd";
 import OrderPage from "./pages/order/OrderPage.tsx";
 import NewsPage from "./pages/news/NewsPage.tsx";
+import NewsDetailPage from "./pages/news/NewsDetailPage.tsx";
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
           <Route path={"/order"} element={<OrderPage />} />
           <Route path={"/about"} element={<AboutUs />} />
           <Route path={"/news"} element={<NewsPage />} />
+          <Route path={"/news-detail/:id"} element={<NewsDetailPage />} />
         </Routes>
       </Layout>
     </>
