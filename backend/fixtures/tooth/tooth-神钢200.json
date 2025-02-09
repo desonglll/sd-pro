@@ -1,0 +1,62 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 61,
+        "fields": {
+            "name": "SK-200座",
+            "title": "safe_label",
+            "description": "SK-200座 型号描述",
+            "image": "/uploads/神钢200/SK-200座.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b021a92.jpg",
+            "category": 14
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 62,
+        "fields": {
+            "name": "SK-200新平",
+            "title": "safe_label",
+            "description": "SK-200新平 型号描述",
+            "image": "/uploads/神钢200/SK-200新平.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b00cded.jpg",
+            "category": 14
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 63,
+        "fields": {
+            "name": "SK-200尖",
+            "title": "safe_label",
+            "description": "SK-200尖 型号描述",
+            "image": "/uploads/神钢200/SK-200尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8afec00d.jpg",
+            "category": 14
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 64,
+        "fields": {
+            "name": "SK-200平",
+            "title": "safe_label",
+            "description": "SK-200平 型号描述",
+            "image": "/uploads/神钢200/SK-200平.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ee55b0bc8.jpg",
+            "category": 14
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 65,
+        "fields": {
+            "name": "SK-200尖",
+            "title": "safe_label",
+            "description": "SK-200尖 型号描述",
+            "image": "/uploads/神钢200/SK-200尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ee45cc7ec.jpg",
+            "category": 14
+        }
+    }
+]

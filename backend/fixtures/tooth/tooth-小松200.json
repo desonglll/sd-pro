@@ -1,0 +1,74 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 119,
+        "fields": {
+            "name": "PC-200平",
+            "title": "safe_label",
+            "description": "PC-200平 型号描述",
+            "image": "/uploads/小松200/PC-200平.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7d311d0.jpg",
+            "category": 23
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 120,
+        "fields": {
+            "name": "PC-200尖",
+            "title": "safe_label",
+            "description": "PC-200尖 型号描述",
+            "image": "/uploads/小松200/PC-200尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7cd671f.jpg",
+            "category": 23
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 121,
+        "fields": {
+            "name": "PC-200齿座",
+            "title": "safe_label",
+            "description": "PC-200齿座 型号描述",
+            "image": "/uploads/小松200/PC-200齿座.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7c90a4a.jpg",
+            "category": 23
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 122,
+        "fields": {
+            "name": "PC-200TV",
+            "title": "safe_label",
+            "description": "PC-200TV 型号描述",
+            "image": "/uploads/小松200/PC-200TV.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7c7e57d.jpg",
+            "category": 23
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 123,
+        "fields": {
+            "name": "PC-200TV-A",
+            "title": "safe_label",
+            "description": "PC-200TV-A 型号描述",
+            "image": "/uploads/小松200/PC-200TV-A.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d45f04272.jpg",
+            "category": 23
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 124,
+        "fields": {
+            "name": "PC200尖TV-A",
+            "title": "safe_label",
+            "description": "PC200尖TV-A 型号描述",
+            "image": "/uploads/小松200/PC200尖TV-A.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d45f1dd58.jpg",
+            "category": 23
+        }
+    }
+]

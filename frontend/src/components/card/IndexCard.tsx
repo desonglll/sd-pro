@@ -2,7 +2,7 @@ import React from "react";
 import { Card as AntCard, Image, Row, Col, Tag } from "antd";
 import { useNavigate } from "react-router-dom";
 import { RouterEndpoint } from "../../api/router-endpoint.ts";
-import { CardProps } from "../../props.ts";
+import type { CardProps } from "../../props.ts";
 import axios from "axios";
 import "./IndexCard.scss";
 

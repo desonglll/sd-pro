@@ -1,0 +1,110 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 90,
+        "fields": {
+            "name": "沃-360座",
+            "title": "safe_label",
+            "description": "沃-360座 型号描述",
+            "image": "/uploads/沃360/沃-360座.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f76a3d939.jpg",
+            "category": 19
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 91,
+        "fields": {
+            "name": "沃360新尖锥小",
+            "title": "safe_label",
+            "description": "沃360新尖锥小 型号描述",
+            "image": "/uploads/沃360/沃360新尖锥小.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f76a2c778.jpg",
+            "category": 19
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 92,
+        "fields": {
+            "name": "沃360新尖",
+            "title": "safe_label",
+            "description": "沃360新尖 型号描述",
+            "image": "/uploads/沃360/沃360新尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f76a0866d.jpg",
+            "category": 19
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 93,
+        "fields": {
+            "name": "沃360尖",
+            "title": "safe_label",
+            "description": "沃360尖 型号描述",
+            "image": "/uploads/沃360/沃360尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f6fe5acc2.jpg",
+            "category": 19
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 94,
+        "fields": {
+            "name": "沃-360座",
+            "title": "safe_label",
+            "description": "沃-360座 型号描述",
+            "image": "/uploads/沃360/沃-360座.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ed2c292d6.jpg",
+            "category": 19
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 95,
+        "fields": {
+            "name": "沃360新尖",
+            "title": "safe_label",
+            "description": "沃360新尖 型号描述",
+            "image": "/uploads/沃360/沃360新尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ed2c17bb7.jpg",
+            "category": 19
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 96,
+        "fields": {
+            "name": "沃360尖锥",
+            "title": "safe_label",
+            "description": "沃360尖锥 型号描述",
+            "image": "/uploads/沃360/沃360尖锥.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ed2be4425.jpg",
+            "category": 19
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 97,
+        "fields": {
+            "name": "沃360尖",
+            "title": "safe_label",
+            "description": "沃360尖 型号描述",
+            "image": "/uploads/沃360/沃360尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ed2bd0247.jpg",
+            "category": 19
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 98,
+        "fields": {
+            "name": "沃360齿座",
+            "title": "safe_label",
+            "description": "沃360齿座 型号描述",
+            "image": "/uploads/沃360/沃360齿座.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ed2c02e18.jpg",
+            "category": 19
+        }
+    }
+]

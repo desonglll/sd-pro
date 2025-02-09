@@ -1,0 +1,74 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 71,
+        "fields": {
+            "name": "SK-350座",
+            "title": "safe_label",
+            "description": "SK-350座 型号描述",
+            "image": "/uploads/神钢350/SK-350座.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b0a549f.jpg",
+            "category": 16
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 72,
+        "fields": {
+            "name": "SK-350新尖大",
+            "title": "safe_label",
+            "description": "SK-350新尖大 型号描述",
+            "image": "/uploads/神钢350/SK-350新尖大.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b0a549f.jpg",
+            "category": 16
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 73,
+        "fields": {
+            "name": "SK-350平",
+            "title": "safe_label",
+            "description": "SK-350平 型号描述",
+            "image": "/uploads/神钢350/SK-350平.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b09027b.jpg",
+            "category": 16
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 74,
+        "fields": {
+            "name": "SK-350齿座斜板",
+            "title": "safe_label",
+            "description": "SK-350齿座斜板 型号描述",
+            "image": "/uploads/神钢350/SK-350齿座斜板.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b07dd75.jpg",
+            "category": 16
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 75,
+        "fields": {
+            "name": "SK-350TV",
+            "title": "safe_label",
+            "description": "SK-350TV 型号描述",
+            "image": "/uploads/神钢350/SK-350TV.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b06bb8b.jpg",
+            "category": 16
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 76,
+        "fields": {
+            "name": "SK-350尖锥",
+            "title": "safe_label",
+            "description": "SK-350尖锥 型号描述",
+            "image": "/uploads/神钢350/SK-350尖锥.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0edc01dd80.jpg",
+            "category": 16
+        }
+    }
+]

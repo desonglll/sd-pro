@@ -1,0 +1,38 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 99,
+        "fields": {
+            "name": "HY-500新款平",
+            "title": "safe_label",
+            "description": "HY-500新款平 型号描述",
+            "image": "/uploads/现代系列/HY-500新款平.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ec7bed614.jpg",
+            "category": 20
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 100,
+        "fields": {
+            "name": "HY-500新款平",
+            "title": "safe_label",
+            "description": "HY-500新款平 型号描述",
+            "image": "/uploads/现代系列/HY-500新款平.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d5267bb4e.jpg",
+            "category": 20
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 101,
+        "fields": {
+            "name": "HY-220尖",
+            "title": "safe_label",
+            "description": "HY-220尖 型号描述",
+            "image": "/uploads/现代系列/HY-220尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d505e8df2.jpg",
+            "category": 20
+        }
+    }
+]

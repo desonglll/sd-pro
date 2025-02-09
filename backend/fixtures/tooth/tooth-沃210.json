@@ -1,0 +1,14 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 88,
+        "fields": {
+            "name": "沃210新尖",
+            "title": "safe_label",
+            "description": "沃210新尖 型号描述",
+            "image": "/uploads/沃210/沃210新尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f698e12e2.jpg",
+            "category": 17
+        }
+    }
+]

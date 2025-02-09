@@ -1,0 +1,62 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 66,
+        "fields": {
+            "name": "SK-230直板座",
+            "title": "safe_label",
+            "description": "SK-230直板座 型号描述",
+            "image": "/uploads/神钢230/SK-230直板座.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b059c03.jpg",
+            "category": 15
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 67,
+        "fields": {
+            "name": "SK-230新尖-B",
+            "title": "safe_label",
+            "description": "SK-230新尖-B 型号描述",
+            "image": "/uploads/神钢230/SK-230新尖-B.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b045471.jpg",
+            "category": 15
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 68,
+        "fields": {
+            "name": "SK-230斜板",
+            "title": "safe_label",
+            "description": "SK-230斜板 型号描述",
+            "image": "/uploads/神钢230/SK-230斜板.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b033600.jpg",
+            "category": 15
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 69,
+        "fields": {
+            "name": "SK-230新尖-B",
+            "title": "safe_label",
+            "description": "SK-230新尖-B 型号描述",
+            "image": "/uploads/神钢230/SK-230新尖-B.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0edf683321.jpg",
+            "category": 15
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 70,
+        "fields": {
+            "name": "SK-230平",
+            "title": "safe_label",
+            "description": "SK-230平 型号描述",
+            "image": "/uploads/神钢230/SK-230平.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ede744ba3.jpg",
+            "category": 15
+        }
+    }
+]

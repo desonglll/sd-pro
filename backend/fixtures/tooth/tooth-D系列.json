@@ -1,0 +1,38 @@
+[
+  {
+    "model": "bucket.tooth",
+    "pk": 1,
+    "fields": {
+      "name": "D100尖",
+      "title": "safe_label",
+      "description": "D100尖 型号描述",
+      "image": "/uploads/D系列/D100尖.jpg",
+      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f600c395d.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "bucket.tooth",
+    "pk": 2,
+    "fields": {
+      "name": "D85尖锥",
+      "title": "safe_label",
+      "description": "D85尖锥 型号描述",
+      "image": "/uploads/D系列/D85尖锥.jpg",
+      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5f3e531a.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "bucket.tooth",
+    "pk": 3,
+    "fields": {
+      "name": "D10尖锥",
+      "title": "safe_label",
+      "description": "D10尖锥 型号描述",
+      "image": "/uploads/D系列/D10尖锥.jpg",
+      "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5e723ea0.jpg",
+      "category": 1
+    }
+  }
+]

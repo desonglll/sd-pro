@@ -1,0 +1,14 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 143,
+        "fields": {
+            "name": "销子",
+            "title": "safe_label",
+            "description": "销子 型号描述",
+            "image": "/uploads/销子/销子.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f65f347ff.jpg",
+            "category": 26
+        }
+    }
+]

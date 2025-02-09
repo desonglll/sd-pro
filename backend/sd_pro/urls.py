@@ -24,6 +24,7 @@ import bucket.urls
 import card.urls
 import information.urls
 import order.urls
+import news.urls
 from sd_pro import settings
 
 urlpatterns = ([
@@ -31,7 +32,8 @@ urlpatterns = ([
                    path("card/", include(card.urls)),
                    path("bucket/", include(bucket.urls)),
                    path("info/", include(information.urls)),
-                   path("order/", include(order.urls))
+                   path("order/", include(order.urls)),
+                   path("news/", include(news.urls))
                ]
                + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
                + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT))

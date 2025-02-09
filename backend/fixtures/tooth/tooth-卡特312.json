@@ -1,0 +1,26 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 32,
+        "fields": {
+            "name": "CAT-312平",
+            "title": "safe_label",
+            "description": "CAT-312平 型号描述",
+            "image": "/uploads/卡特312/CAT-312平.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f441af834.jpg",
+            "category": 7
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 33,
+        "fields": {
+            "name": "CAT-312尖",
+            "title": "safe_label",
+            "description": "CAT-312尖 型号描述",
+            "image": "/uploads/卡特312/CAT-312尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f432007a0.jpg",
+            "category": 7
+        }
+    }
+]

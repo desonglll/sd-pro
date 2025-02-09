@@ -1,0 +1,26 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 37,
+        "fields": {
+            "name": "CAT325尖TV-B",
+            "title": "safe_label",
+            "description": "CAT325尖TV-B 型号描述",
+            "image": "/uploads/卡特325/CAT325尖TV-B.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/9/03/5fa0f3808ad87.jpg",
+            "category": 9
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 38,
+        "fields": {
+            "name": "CAT-325TV-B",
+            "title": "safe_label",
+            "description": "CAT-325TV-B 型号描述",
+            "image": "/uploads/卡特325/CAT-325TV-B.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/9/03/5fa0f36ea12ed.jpg",
+            "category": 9
+        }
+    }
+]

@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     "information",
     "card",
     "bucket",
-    "order"
+    "order",
+    "news"
 ]
 
 MIDDLEWARE = [

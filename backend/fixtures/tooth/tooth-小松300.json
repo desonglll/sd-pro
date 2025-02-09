@@ -1,0 +1,86 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 125,
+        "fields": {
+            "name": "PC-300座4.0开口",
+            "title": "safe_label",
+            "description": "PC-300座4.0开口 型号描述",
+            "image": "/uploads/小松300/PC-300座4.0开口.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7f14f0f.jpg",
+            "category": 24
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 126,
+        "fields": {
+            "name": "PC-300新尖锥",
+            "title": "safe_label",
+            "description": "PC-300新尖锥 型号描述",
+            "image": "/uploads/小松300/PC-300新尖锥.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7f00057.jpg",
+            "category": 24
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 127,
+        "fields": {
+            "name": "PC-300新尖",
+            "title": "safe_label",
+            "description": "PC-300新尖 型号描述",
+            "image": "/uploads/小松300/PC-300新尖.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7ed7d29.jpg",
+            "category": 24
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 128,
+        "fields": {
+            "name": "PC-300尖大",
+            "title": "safe_label",
+            "description": "PC-300尖大 型号描述",
+            "image": "/uploads/小松300/PC-300尖大.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7e5e1ba.jpg",
+            "category": 24
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 129,
+        "fields": {
+            "name": "PC-300TV",
+            "title": "safe_label",
+            "description": "PC-300TV 型号描述",
+            "image": "/uploads/小松300/PC-300TV.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7da9d59.jpg",
+            "category": 24
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 130,
+        "fields": {
+            "name": "PC-300TV-A",
+            "title": "safe_label",
+            "description": "PC-300TV-A 型号描述",
+            "image": "/uploads/小松300/PC-300TV-A.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d43168a9c.jpg",
+            "category": 24
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 131,
+        "fields": {
+            "name": "PC300尖TV-A",
+            "title": "safe_label",
+            "description": "PC300尖TV-A 型号描述",
+            "image": "/uploads/小松300/PC300尖TV-A.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d431b1246.jpg",
+            "category": 24
+        }
+    }
+]
