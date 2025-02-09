@@ -5,6 +5,7 @@ import axios from "axios";
 import { BackendEndpoint } from "../../api/backend-endpoint.ts";
 import type { AboutUsProps } from "../../props.ts";
 import "./AboutUs.scss";
+import Footer from "../../components/skeleton/Footer.tsx";
 
 const { Title, Paragraph } = Typography;
 
@@ -59,6 +60,7 @@ const AboutUs: React.FC = () => {
           </Card>
         </Col>
       </Row>
+      <Footer />
     </Layout>
   );
 };

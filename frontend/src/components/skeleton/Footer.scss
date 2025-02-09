@@ -2,6 +2,7 @@
   background-color: #001529;
   color: #ffffff;
   padding: 20px;
+  display: flex;
 
   .footer-content {
     max-width: 1200px;
@@ -10,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 
     .footer-info {
       font-size: 14px;
