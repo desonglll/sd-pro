@@ -17,16 +17,24 @@ function NewsPage() {
     axios
       .get("news/")
       .then((response) => {
-        const news = response.data.map((item) => {
-          return {
-            id: item.id,
-            title: item.title,
-            navs: [],
-            content: `${item.content.slice(0, 100)}...`,
-            image: item.images[0].image,
-            slug: item.slug,
-          };
-        });
+        const news = response.data.map(
+          (item: {
+            id: number;
+            title: string;
+            content: string;
+            images: [{ image: string }];
+            slug: string;
+          }) => {
+            return {
+              id: item.id,
+              title: item.title,
+              navs: [],
+              content: `${item.content.slice(0, 100)}...`,
+              image: item.images[0].image,
+              slug: item.slug,
+            };
+          }
+        );
         console.log(news);
         setNewsCards(news);
       })
