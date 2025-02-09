@@ -4,26 +4,31 @@ import {useNavigate} from "react-router-dom";
 import {RouterEndpoint} from "../../api/router-endpoint.ts";
 import type {CardProps} from "../../props.ts";
 import axios from "axios";
-import "./NewsCard.scss";
+import "./Card.scss";
 
-const NewsCard: React.FC<{ card: CardProps; className?: string }> = ({
-                                                                         card,
-                                                                         className = "",
-                                                                     }) => {
+const Card: React.FC<{
+    card: CardProps;
+    navigateTo: string;
+    className?: string
+}> = ({
+          card,
+          navigateTo = "",
+          className = "",
+      }) => {
     const navigate = useNavigate();
     const isOdd = card.id % 2 !== 0;
 
     return (
         <AntCard
             id={card.id.toString()}
-            className={`index-card ${className}`}
+            className={`card ${className}`}
             style={{backgroundColor: isOdd ? "#f0f0f0" : "#fff"}}
         >
             <Row gutter={[24, 16]} align="middle" justify={"center"}>
                 {isOdd && (
                     <Col xs={24} md={10}>
                         <Image
-                            src={axios.defaults.baseURL + card.image}
+                            src={axios.defaults.baseURL + (card.image ?? "")}
                             alt={card.title}
                             className="mining-image"
                             preview={false}
@@ -33,13 +38,11 @@ const NewsCard: React.FC<{ card: CardProps; className?: string }> = ({
 
                 <Col xs={24} md={10}>
                     <h1>
-                        <a onClick={() => navigate(`/news-detail/${card.id}`)}>
-                            {card.title}
-                        </a>
+                        <a onClick={() => navigate(navigateTo || "")}>{card.title}</a>
                     </h1>
                     <p>{card.content}</p>
                     <div className="tags">
-                        {card.navs.map((item) => (
+                        {card.navs?.map((item) => (
                             <Tag key={item.id} className="clickable-tag">
                                 <a
                                     onClick={(e) => {
@@ -59,7 +62,7 @@ const NewsCard: React.FC<{ card: CardProps; className?: string }> = ({
                 {!isOdd && (
                     <Col xs={24} md={10}>
                         <Image
-                            src={axios.defaults.baseURL + card.image}
+                            src={axios.defaults.baseURL + (card.image ?? "")}
                             alt={card.title}
                             className="mining-image"
                             preview={false}
@@ -71,4 +74,4 @@ const NewsCard: React.FC<{ card: CardProps; className?: string }> = ({
     );
 };
 
-export default NewsCard;
+export default Card;

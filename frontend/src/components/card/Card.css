@@ -1,56 +1,56 @@
-.index-card {
+.card {
   transition: all 0.4s ease-in-out;
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-.index-card:hover {
+.card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
-.index-card .ant-image {
+.card .ant-image {
   width: 100%;
 }
-.index-card .mining-image {
+.card .mining-image {
   transition: transform 0.4s ease-in-out, opacity 0.3s;
   border-radius: 8px;
   object-fit: cover;
   height: 280px;
   width: 100%;
 }
-.index-card .mining-image:hover {
+.card .mining-image:hover {
   transform: scale(1.05);
   opacity: 0.9;
 }
-.index-card h1 {
+.card h1 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   position: relative;
   padding-bottom: 0.5rem;
   transition: color 0.3s;
 }
-.index-card h1 a {
+.card h1 a {
   color: #333;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.index-card h1 a:hover {
+.card h1 a:hover {
   color: #d65d0e;
 }
-.index-card p {
+.card p {
   font-size: 1rem;
   line-height: 1.6;
   color: #495057;
   margin-bottom: 1.2rem;
 }
-.index-card .tags {
+.card .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-.index-card .clickable-tag {
+.card .clickable-tag {
   cursor: pointer;
   padding: 6px 12px;
   border-radius: 20px;
@@ -58,21 +58,21 @@
   border: none;
   transition: all 0.3s ease;
 }
-.index-card .clickable-tag a {
+.card .clickable-tag a {
   color: #d65d0e;
   font-weight: 500;
 }
-.index-card .clickable-tag:hover {
+.card .clickable-tag:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(214, 93, 14, 0.2);
 }
 @media (max-width: 768px) {
-  .index-card .mining-image {
+  .card .mining-image {
     height: 200px;
   }
-  .index-card h1 {
+  .card h1 {
     font-size: 1.5rem;
   }
 }
 
-/*# sourceMappingURL=IndexCard.css.map */
+/*# sourceMappingURL=Card.css.map */

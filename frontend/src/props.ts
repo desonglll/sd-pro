@@ -49,9 +49,9 @@ export interface CardProps {
     id: number;
     title: string;
     content: string;
-    image: string;
-    navs: NavProps[];
-    slug: string;
+    image?: string;
+    navs?: NavProps[];
+    slug?: string;
 }
 
 export interface Member {
@@ -85,7 +85,6 @@ export interface AboutUsProps {
     name: string;
     title: string;
     content: string;
-    slug: string;
 }
 
 export interface NewsImageProps {
@@ -100,5 +99,4 @@ export interface NewsProps {
     title: string;
     content: string;
     images: NewsImageProps[];
-    slug: string;
 }
