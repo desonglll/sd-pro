@@ -17,7 +17,7 @@ const NewsDetailPage: React.FC = () => {
 
     useEffect(() => {
         axios
-            .get(`${BackendEndpoint.news}${id}`)
+            .get(`${BackendEndpoint.news}${id}/`)
             .then((response) => {
                 console.log(response.data)
                 if (response.status === 200) {
