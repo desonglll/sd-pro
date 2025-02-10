@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "name": "d-series",
-      "title": "D系列"
+      "title": "d-series"
     }
   },
   {
@@ -12,7 +12,7 @@
     "pk": 2,
     "fields": {
       "name": "dayu-series",
-      "title": "大宇系列"
+      "title": "dayu-series"
     }
   },
   {
@@ -20,7 +20,7 @@
     "pk": 3,
     "fields": {
       "name": "cater-series",
-      "title": "卡特系列"
+      "title": "cater-series"
     }
   },
   {
@@ -28,7 +28,7 @@
     "pk": 4,
     "fields": {
       "name": "hitachi-series",
-      "title": "日立系列"
+      "title": "hitachi-series"
     }
   },
   {
@@ -36,7 +36,7 @@
     "pk": 5,
     "fields": {
       "name": "kobelco-series",
-      "title": "神钢系列"
+      "title": "kobelco-series"
     }
   },
   {
@@ -44,7 +44,7 @@
     "pk": 6,
     "fields": {
       "name": "volvo-series",
-      "title": "沃尔沃系列"
+      "title": "volvo-series"
     }
   },
   {
@@ -52,7 +52,7 @@
     "pk": 7,
     "fields": {
       "name": "hyundai-series",
-      "title": "现代系列"
+      "title": "hyundai-series"
     }
   },
   {
@@ -60,7 +60,7 @@
     "pk": 8,
     "fields": {
       "name": "komatsu-series",
-      "title": "小松系列"
+      "title": "komatsu-series"
     }
   },
   {
@@ -68,7 +68,7 @@
     "pk": 9,
     "fields": {
       "name": "xiaozi",
-      "title": "销子"
+      "title": "xiaozi"
     }
   },
   {
@@ -76,7 +76,7 @@
     "pk": 10,
     "fields": {
       "name": "combined",
-      "title": "组合"
+      "title": "combined"
     }
   }
 ]

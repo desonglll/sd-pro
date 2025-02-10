@@ -1,0 +1,30 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 15,
+            "fields": {
+                "name": "DH-280 new flat",
+                "title": "safe_label",
+                "description": "DH-280 new flat description",
+                "image": "/uploads/Daewoo280/DH-280 new flat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5287242a.jpg",
+                "category": 4
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 16,
+            "fields": {
+                "name": "DH-280 new tip",
+                "title": "safe_label",
+                "description": "DH-280 new tip description",
+                "image": "/uploads/Daewoo280/DH-280 new tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f517ddf44.jpg",
+                "category": 4
+            }
+        }
+    ]
+]

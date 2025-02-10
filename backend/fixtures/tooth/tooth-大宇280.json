@@ -8,7 +8,8 @@
             "description": "DH-280新款平 型号描述",
             "image": "/uploads/大宇280/DH-280新款平.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5287242a.jpg",
-            "category": 3
+            "category": 3,
+            "language": "zh"
         }
     },
     {
@@ -20,7 +21,8 @@
             "description": "DH-280新尖 型号描述",
             "image": "/uploads/大宇280/DH-280新尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f517ddf44.jpg",
-            "category": 3
+            "category": 3,
+            "language": "zh"
         }
     }
 ]

@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 34,
+            "fields": {
+                "name": "CAT-320 pointed cone",
+                "title": "safe_label",
+                "description": "CAT-320 pointed cone description",
+                "image": "/uploads/Carter320/CAT-320 pointed cone.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f3d5eba15.jpg",
+                "category": 10
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 35,
+            "fields": {
+                "name": "CAT-320 tooth seat",
+                "title": "safe_label",
+                "description": "CAT-320 tooth seat description",
+                "image": "/uploads/Carter320/CAT-320 tooth seat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f3d5d255f.jpg",
+                "category": 10
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 36,
+            "fields": {
+                "name": "CAT320TV-A",
+                "title": "safe_label",
+                "description": "CAT320TV-A description",
+                "image": "/uploads/Carter320/CAT320TV-A.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f3d5bfa59.jpg",
+                "category": 10
+            }
+        }
+    ]
+]

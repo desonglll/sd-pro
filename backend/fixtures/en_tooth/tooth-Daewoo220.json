@@ -1,0 +1,41 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 12,
+        "fields": {
+            "name": "DH-220 new tip",
+            "title": "safe_label",
+            "description": "DH-220 new tip description",
+            "image": "/uploads/Daewoo220/DH-220 new tip.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
+            "category": 2,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 13,
+        "fields": {
+            "name": "DH-220 pointed cone 0",
+            "title": "safe_label",
+            "description": "DH-220 pointed cone 0 description",
+            "image": "/uploads/Daewoo220/DH-220 pointed cone 0.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f59f328ba.jpg",
+            "category": 2,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 14,
+        "fields": {
+            "name": "DH-220TV",
+            "title": "safe_label",
+            "description": "DH-220TV description",
+            "image": "/uploads/Daewoo220/DH-220TV.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f59204856.jpg",
+            "category": 2,
+            "language": "en"
+        }
+    }
+]

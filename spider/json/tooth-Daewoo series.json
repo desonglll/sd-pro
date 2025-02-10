@@ -1,0 +1,114 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 4,
+            "fields": {
+                "name": "DH-220 new tip",
+                "title": "safe_label",
+                "description": "DH-220 new tip description",
+                "image": "/uploads/Daewoo series/DH-220 new tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
+                "category": 2
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 5,
+            "fields": {
+                "name": "DH-220 pointed cone 0",
+                "title": "safe_label",
+                "description": "DH-220 pointed cone 0 description",
+                "image": "/uploads/Daewoo series/DH-220 pointed cone 0.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f59f328ba.jpg",
+                "category": 2
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 6,
+            "fields": {
+                "name": "DH-220TV",
+                "title": "safe_label",
+                "description": "DH-220TV description",
+                "image": "/uploads/Daewoo series/DH-220TV.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f59204856.jpg",
+                "category": 2
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 7,
+            "fields": {
+                "name": "DH-280 new flat",
+                "title": "safe_label",
+                "description": "DH-280 new flat description",
+                "image": "/uploads/Daewoo series/DH-280 new flat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5287242a.jpg",
+                "category": 2
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 8,
+            "fields": {
+                "name": "DH-280 new tip",
+                "title": "safe_label",
+                "description": "DH-280 new tip description",
+                "image": "/uploads/Daewoo series/DH-280 new tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f517ddf44.jpg",
+                "category": 2
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 9,
+            "fields": {
+                "name": "DH-300 pointed cone",
+                "title": "safe_label",
+                "description": "DH-300 pointed cone description",
+                "image": "/uploads/Daewoo series/DH-300 pointed cone.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f4dde1a63.jpg",
+                "category": 2
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 10,
+            "fields": {
+                "name": "DH-360 pointed cone",
+                "title": "safe_label",
+                "description": "DH-360 pointed cone description",
+                "image": "/uploads/Daewoo series/DH-360 pointed cone.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f4a372a9a.jpg",
+                "category": 2
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 11,
+            "fields": {
+                "name": "DH-500 tip",
+                "title": "safe_label",
+                "description": "DH-500 tip description",
+                "image": "/uploads/Daewoo series/DH-500 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f4a372a9a.jpg",
+                "category": 2
+            }
+        }
+    ]
+]

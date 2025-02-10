@@ -1,0 +1,58 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 44,
+            "fields": {
+                "name": "Hitachi 300 tip",
+                "title": "safe_label",
+                "description": "Hitachi 300 tip description",
+                "image": "/uploads/Hitachi series/Hitachi 300 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f7e81f4d1.jpg",
+                "category": 14
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 45,
+            "fields": {
+                "name": "Hitachi 200 tip",
+                "title": "safe_label",
+                "description": "Hitachi 200 tip description",
+                "image": "/uploads/Hitachi series/Hitachi 200 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f7d35ff34.jpg",
+                "category": 14
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 46,
+            "fields": {
+                "name": "Hitachi 70 flat",
+                "title": "safe_label",
+                "description": "Hitachi 70 flat description",
+                "image": "/uploads/Hitachi series/Hitachi 70 flat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0eed0afab2.jpg",
+                "category": 14
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 47,
+            "fields": {
+                "name": "Hitachi 70 tip",
+                "title": "safe_label",
+                "description": "Hitachi 70 tip description",
+                "image": "/uploads/Hitachi series/Hitachi 70 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0eebe188e3.jpg",
+                "category": 14
+            }
+        }
+    ]
+]

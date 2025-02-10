@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 17,
+            "fields": {
+                "name": "DH-300 pointed cone",
+                "title": "safe_label",
+                "description": "DH-300 pointed cone description",
+                "image": "/uploads/Daewoo300/DH-300 pointed cone.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f4dde1a63.jpg",
+                "category": 5
+            }
+        }
+    ]
+]

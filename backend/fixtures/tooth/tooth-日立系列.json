@@ -8,7 +8,8 @@
             "description": "日立300尖 型号描述",
             "image": "/uploads/日立系列/日立300尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f7e81f4d1.jpg",
-            "category": 12
+            "category": 12,
+            "language": "zh"
         }
     },
     {
@@ -20,7 +21,8 @@
             "description": "日立200尖 型号描述",
             "image": "/uploads/日立系列/日立200尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f7d35ff34.jpg",
-            "category": 12
+            "category": 12,
+            "language": "zh"
         }
     },
     {
@@ -32,7 +34,8 @@
             "description": "日立70平 型号描述",
             "image": "/uploads/日立系列/日立70平.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0eed0afab2.jpg",
-            "category": 12
+            "category": 12,
+            "language": "zh"
         }
     },
     {
@@ -44,7 +47,8 @@
             "description": "日立70尖 型号描述",
             "image": "/uploads/日立系列/日立70尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0eebe188e3.jpg",
-            "category": 12
+            "category": 12,
+            "language": "zh"
         }
     }
 ]

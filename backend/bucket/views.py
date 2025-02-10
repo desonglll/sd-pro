@@ -47,6 +47,7 @@ class ListTooth(APIView):
             query &= Q(name__icontains=required_name)
         if required_title:
             query &= Q(title__icontains=required_title)
+        query &= Q(language__icontains="en")  # for english
         # 构造 queryset
         qs = Tooth.objects.filter(query)
         result = self.serializer_class(qs, many=True).data

@@ -1,0 +1,15 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 143,
+        "fields": {
+            "name": "pin",
+            "title": "safe_label",
+            "description": "pin description",
+            "image": "/uploads/Pin/pin.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f65f347ff.jpg",
+            "category": 26,
+            "language": "en"
+        }
+    }
+]

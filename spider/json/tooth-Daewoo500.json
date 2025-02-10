@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 19,
+            "fields": {
+                "name": "DH-500 tip",
+                "title": "safe_label",
+                "description": "DH-500 tip description",
+                "image": "/uploads/Daewoo500/DH-500 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f4a372a9a.jpg",
+                "category": 7
+            }
+        }
+    ]
+]

@@ -39,7 +39,7 @@ def one(url, path_folder, category_id):
                 "fields": {
                     "name": safe_label,
                     "title": "safe_label",
-                    "description": f"{safe_label} 型号描述",
+                    "description": f"{safe_label} description",
                     "image": f"/uploads/{path_folder}/{safe_label}.jpg",
                     "image_src": img_url,
                     "category": category_id,
@@ -64,12 +64,12 @@ def one(url, path_folder, category_id):
 
         print(f"数据已追加到 {json_file}")
         # 下载图片
-        # download_image(img_url, safe_label, path_folder)
+        download_image(img_url, safe_label, path_folder)
 
 
 # 下载图片函数
 def download_image(image_url, image_name, path_folder):
-    folder = os.path.join(os.path.dirname(__file__), "images")
+    folder = os.path.join(os.path.dirname(__file__), "enimages")
     folder = os.path.join(folder, path_folder)
     if not os.path.exists(folder):
         os.makedirs(folder)

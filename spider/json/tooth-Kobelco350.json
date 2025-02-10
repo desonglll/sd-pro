@@ -1,0 +1,86 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 71,
+            "fields": {
+                "name": "SK-350 seats",
+                "title": "safe_label",
+                "description": "SK-350 seats description",
+                "image": "/uploads/Kobelco350/SK-350 seats.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b0a549f.jpg",
+                "category": 19
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 72,
+            "fields": {
+                "name": "SK-350 new tip",
+                "title": "safe_label",
+                "description": "SK-350 new tip description",
+                "image": "/uploads/Kobelco350/SK-350 new tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b0a549f.jpg",
+                "category": 19
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 73,
+            "fields": {
+                "name": "SK-350 flat",
+                "title": "safe_label",
+                "description": "SK-350 flat description",
+                "image": "/uploads/Kobelco350/SK-350 flat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b09027b.jpg",
+                "category": 19
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 74,
+            "fields": {
+                "name": "SK-350 tooth seat inclined plate",
+                "title": "safe_label",
+                "description": "SK-350 tooth seat inclined plate description",
+                "image": "/uploads/Kobelco350/SK-350 tooth seat inclined plate.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b07dd75.jpg",
+                "category": 19
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 75,
+            "fields": {
+                "name": "SK-350TV",
+                "title": "safe_label",
+                "description": "SK-350TV description",
+                "image": "/uploads/Kobelco350/SK-350TV.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b06bb8b.jpg",
+                "category": 19
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 76,
+            "fields": {
+                "name": "SK-350 pointed cone",
+                "title": "safe_label",
+                "description": "SK-350 pointed cone description",
+                "image": "/uploads/Kobelco350/SK-350 pointed cone.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0edc01dd80.jpg",
+                "category": 19
+            }
+        }
+    ]
+]

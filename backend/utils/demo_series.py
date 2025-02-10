@@ -2,16 +2,16 @@ import json
 
 # 定义所有 series 数据
 series_list = [
-    {"id": 1, "name": "d-series", "title": "D系列"},
-    {"id": 2, "name": "dayu-series", "title": "大宇系列"},
-    {"id": 3, "name": "cater-series", "title": "卡特系列"},
-    {"id": 4, "name": "hitachi-series", "title": "日立系列"},
-    {"id": 5, "name": "kobelco-series", "title": "神钢系列"},
-    {"id": 6, "name": "volvo-series", "title": "沃尔沃系列"},
-    {"id": 7, "name": "hyundai-series", "title": "现代系列"},
-    {"id": 8, "name": "komatsu-series", "title": "小松系列"},
-    {"id": 9, "name": "xiaozi", "title": "销子"},
-    {"id": 10, "name": "combined", "title": "组合"}
+    {"id": 1, "name": "d-series", "title": "d-series"},
+    {"id": 2, "name": "dayu-series", "title": "dayu-series"},
+    {"id": 3, "name": "cater-series", "title": "cater-series"},
+    {"id": 4, "name": "hitachi-series", "title": "hitachi-series"},
+    {"id": 5, "name": "kobelco-series", "title": "kobelco-series"},
+    {"id": 6, "name": "volvo-series", "title": "volvo-series"},
+    {"id": 7, "name": "hyundai-series", "title": "hyundai-series"},
+    {"id": 8, "name": "komatsu-series", "title": "komatsu-series"},
+    {"id": 9, "name": "xiaozi", "title": "xiaozi"},
+    {"id": 10, "name": "combined", "title": "combined"}
 ]
 
 # 构造 fixture 列表

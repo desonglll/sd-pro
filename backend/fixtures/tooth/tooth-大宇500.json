@@ -8,7 +8,8 @@
             "description": "DH-500尖 型号描述",
             "image": "/uploads/大宇500/DH-500尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f4a372a9a.jpg",
-            "category": 6
+            "category": 6,
+            "language": "zh"
         }
     }
 ]

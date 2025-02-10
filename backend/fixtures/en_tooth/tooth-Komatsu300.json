@@ -1,0 +1,93 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 125,
+        "fields": {
+            "name": "PC-300 seat 4.0 opening",
+            "title": "safe_label",
+            "description": "PC-300 seat 4.0 opening description",
+            "image": "/uploads/Komatsu300/PC-300 seat 4.0 opening.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7f14f0f.jpg",
+            "category": 24,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 126,
+        "fields": {
+            "name": "PC-300 new pointed cone",
+            "title": "safe_label",
+            "description": "PC-300 new pointed cone description",
+            "image": "/uploads/Komatsu300/PC-300 new pointed cone.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7f00057.jpg",
+            "category": 24,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 127,
+        "fields": {
+            "name": "PC-300 new tip",
+            "title": "safe_label",
+            "description": "PC-300 new tip description",
+            "image": "/uploads/Komatsu300/PC-300 new tip.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7ed7d29.jpg",
+            "category": 24,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 128,
+        "fields": {
+            "name": "PC-300 sharp",
+            "title": "safe_label",
+            "description": "PC-300 sharp description",
+            "image": "/uploads/Komatsu300/PC-300 sharp.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7e5e1ba.jpg",
+            "category": 24,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 129,
+        "fields": {
+            "name": "PC-300TV",
+            "title": "safe_label",
+            "description": "PC-300TV description",
+            "image": "/uploads/Komatsu300/PC-300TV.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7da9d59.jpg",
+            "category": 24,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 130,
+        "fields": {
+            "name": "PC-300TV-A",
+            "title": "safe_label",
+            "description": "PC-300TV-A description",
+            "image": "/uploads/Komatsu300/PC-300TV-A.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d43168a9c.jpg",
+            "category": 24,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 131,
+        "fields": {
+            "name": "PC300 tip TV-A",
+            "title": "safe_label",
+            "description": "PC300 tip TV-A description",
+            "image": "/uploads/Komatsu300/PC300 tip TV-A.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d431b1246.jpg",
+            "category": 24,
+            "language": "en"
+        }
+    }
+]

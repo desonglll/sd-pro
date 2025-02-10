@@ -1,0 +1,54 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 39,
+        "fields": {
+            "name": "CAT-330 pointed cone",
+            "title": "safe_label",
+            "description": "CAT-330 pointed cone description",
+            "image": "/uploads/Carter330/CAT-330 pointed cone.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f339041d3.jpg",
+            "category": 10,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 40,
+        "fields": {
+            "name": "CAT330尖TV-B",
+            "title": "safe_label",
+            "description": "CAT330尖TV-B description",
+            "image": "/uploads/Carter330/CAT330尖TV-B.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f327d9665.jpg",
+            "category": 10,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 41,
+        "fields": {
+            "name": "CAT-330TV-B",
+            "title": "safe_label",
+            "description": "CAT-330TV-B description",
+            "image": "/uploads/Carter330/CAT-330TV-B.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f3063c559.jpg",
+            "category": 10,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 42,
+        "fields": {
+            "name": "CAT-330TV-A",
+            "title": "safe_label",
+            "description": "CAT-330TV-A description",
+            "image": "/uploads/Carter330/CAT-330TV-A.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f2e8c49fe.jpg",
+            "category": 10,
+            "language": "en"
+        }
+    }
+]

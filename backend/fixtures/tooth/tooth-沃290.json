@@ -8,7 +8,8 @@
             "description": "沃290尖 型号描述",
             "image": "/uploads/沃290/沃290尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ecc68271c.jpg",
-            "category": 18
+            "category": 18,
+            "language": "zh"
         }
     }
 ]

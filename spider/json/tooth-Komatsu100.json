@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 116,
+            "fields": {
+                "name": "PC-100 flat",
+                "title": "safe_label",
+                "description": "PC-100 flat description",
+                "image": "/uploads/Komatsu100/PC-100 flat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7c2f0e2.jpg",
+                "category": 27
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 117,
+            "fields": {
+                "name": "PC-100 tip",
+                "title": "safe_label",
+                "description": "PC-100 tip description",
+                "image": "/uploads/Komatsu100/PC-100 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d4952741c.jpg",
+                "category": 27
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 118,
+            "fields": {
+                "name": "PC-100 flat",
+                "title": "safe_label",
+                "description": "PC-100 flat description",
+                "image": "/uploads/Komatsu100/PC-100 flat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d4955c648.jpg",
+                "category": 27
+            }
+        }
+    ]
+]

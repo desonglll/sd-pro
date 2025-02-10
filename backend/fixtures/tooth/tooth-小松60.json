@@ -8,7 +8,8 @@
             "description": "PC-60尖 型号描述",
             "image": "/uploads/小松60/PC-60尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d4c123145.jpg",
-            "category": 21
+            "category": 21,
+            "language": "zh"
         }
     },
     {
@@ -20,7 +21,8 @@
             "description": "PC-60平 型号描述",
             "image": "/uploads/小松60/PC-60平.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d4c136476.jpg",
-            "category": 21
+            "category": 21,
+            "language": "zh"
         }
     }
 ]

@@ -1,0 +1,30 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 32,
+            "fields": {
+                "name": "CAT-312 flat",
+                "title": "safe_label",
+                "description": "CAT-312 flat description",
+                "image": "/uploads/Carter312/CAT-312 flat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f441af834.jpg",
+                "category": 9
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 33,
+            "fields": {
+                "name": "CAT-312 tip",
+                "title": "safe_label",
+                "description": "CAT-312 tip description",
+                "image": "/uploads/Carter312/CAT-312 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f432007a0.jpg",
+                "category": 9
+            }
+        }
+    ]
+]

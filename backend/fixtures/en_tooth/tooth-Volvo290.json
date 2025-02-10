@@ -1,0 +1,15 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 89,
+        "fields": {
+            "name": "Wo 290 tip",
+            "title": "safe_label",
+            "description": "Wo 290 tip description",
+            "image": "/uploads/Volvo290/Wo 290 tip.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ecc68271c.jpg",
+            "category": 18,
+            "language": "en"
+        }
+    }
+]

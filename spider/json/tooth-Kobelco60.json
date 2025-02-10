@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 60,
+            "fields": {
+                "name": "SK-60 tip",
+                "title": "safe_label",
+                "description": "SK-60 tip description",
+                "image": "/uploads/Kobelco60/SK-60 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ee7a2c9d3.jpg",
+                "category": 16
+            }
+        }
+    ]
+]

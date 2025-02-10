@@ -4,8 +4,8 @@
     "pk": 1,
     "fields": {
       "name": "d-series",
-      "title": "D系列",
-      "description": "D系列描述",
+      "title": "d-series",
+      "description": "d-series描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 1,
       "slug": "d-series"
@@ -16,8 +16,8 @@
     "pk": 2,
     "fields": {
       "name": "dayu220",
-      "title": "大宇220",
-      "description": "大宇220描述",
+      "title": "dayu220",
+      "description": "dayu220描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 2,
       "slug": "dayu220"
@@ -28,8 +28,8 @@
     "pk": 3,
     "fields": {
       "name": "dayu280",
-      "title": "大宇280",
-      "description": "大宇280描述",
+      "title": "dayu280",
+      "description": "dayu280描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 2,
       "slug": "dayu280"
@@ -40,8 +40,8 @@
     "pk": 4,
     "fields": {
       "name": "dayu300",
-      "title": "大宇300",
-      "description": "大宇300描述",
+      "title": "dayu300",
+      "description": "dayu300描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 2,
       "slug": "dayu300"
@@ -52,8 +52,8 @@
     "pk": 5,
     "fields": {
       "name": "dayu360",
-      "title": "大宇360",
-      "description": "大宇360描述",
+      "title": "dayu360",
+      "description": "dayu360描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 2,
       "slug": "dayu360"
@@ -64,8 +64,8 @@
     "pk": 6,
     "fields": {
       "name": "dayu500",
-      "title": "大宇500",
-      "description": "大宇500描述",
+      "title": "dayu500",
+      "description": "dayu500描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 2,
       "slug": "dayu500"
@@ -76,8 +76,8 @@
     "pk": 7,
     "fields": {
       "name": "cater312",
-      "title": "卡特312",
-      "description": "卡特312描述",
+      "title": "cater312",
+      "description": "cater312描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 3,
       "slug": "cater312"
@@ -88,8 +88,8 @@
     "pk": 8,
     "fields": {
       "name": "cater320",
-      "title": "卡特320",
-      "description": "卡特320描述",
+      "title": "cater320",
+      "description": "cater320描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 3,
       "slug": "cater320"
@@ -100,8 +100,8 @@
     "pk": 9,
     "fields": {
       "name": "cater325",
-      "title": "卡特325",
-      "description": "卡特325描述",
+      "title": "cater325",
+      "description": "cater325描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 3,
       "slug": "cater325"
@@ -112,8 +112,8 @@
     "pk": 10,
     "fields": {
       "name": "cater330",
-      "title": "卡特330",
-      "description": "卡特330描述",
+      "title": "cater330",
+      "description": "cater330描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 3,
       "slug": "cater330"
@@ -124,8 +124,8 @@
     "pk": 11,
     "fields": {
       "name": "cater345",
-      "title": "卡特345",
-      "description": "卡特345描述",
+      "title": "cater345",
+      "description": "cater345描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 3,
       "slug": "cater345"
@@ -136,8 +136,8 @@
     "pk": 12,
     "fields": {
       "name": "hitachi-series",
-      "title": "日立系列",
-      "description": "日立系列描述",
+      "title": "hitachi-series",
+      "description": "hitachi-series描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 4,
       "slug": "hitachi-series"
@@ -148,8 +148,8 @@
     "pk": 13,
     "fields": {
       "name": "kobelco60",
-      "title": "神钢60",
-      "description": "神钢60描述",
+      "title": "kobelco60",
+      "description": "kobelco60描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 5,
       "slug": "kobelco60"
@@ -160,8 +160,8 @@
     "pk": 14,
     "fields": {
       "name": "kobelco200",
-      "title": "神钢200",
-      "description": "神钢200描述",
+      "title": "kobelco200",
+      "description": "kobelco200描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 5,
       "slug": "kobelco200"
@@ -172,8 +172,8 @@
     "pk": 15,
     "fields": {
       "name": "kobelco230",
-      "title": "神钢230",
-      "description": "神钢230描述",
+      "title": "kobelco230",
+      "description": "kobelco230描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 5,
       "slug": "kobelco230"
@@ -184,8 +184,8 @@
     "pk": 16,
     "fields": {
       "name": "kobelco350",
-      "title": "神钢350",
-      "description": "神钢350描述",
+      "title": "kobelco350",
+      "description": "kobelco350描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 5,
       "slug": "kobelco350"
@@ -196,8 +196,8 @@
     "pk": 17,
     "fields": {
       "name": "volvo210",
-      "title": "沃210",
-      "description": "沃210描述",
+      "title": "volvo210",
+      "description": "volvo210描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 6,
       "slug": "volvo210"
@@ -208,8 +208,8 @@
     "pk": 18,
     "fields": {
       "name": "volvo290",
-      "title": "沃290",
-      "description": "沃290描述",
+      "title": "volvo290",
+      "description": "volvo290描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 6,
       "slug": "volvo290"
@@ -220,8 +220,8 @@
     "pk": 19,
     "fields": {
       "name": "volvo360",
-      "title": "沃360",
-      "description": "沃360描述",
+      "title": "volvo360",
+      "description": "volvo360描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 6,
       "slug": "volvo360"
@@ -232,8 +232,8 @@
     "pk": 20,
     "fields": {
       "name": "hyundai-series",
-      "title": "现代系列",
-      "description": "现代系列描述",
+      "title": "hyundai-series",
+      "description": "hyundai-series描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 7,
       "slug": "hyundai-series"
@@ -244,8 +244,8 @@
     "pk": 21,
     "fields": {
       "name": "komatsu60",
-      "title": "小松60",
-      "description": "小松60描述",
+      "title": "komatsu60",
+      "description": "komatsu60描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 8,
       "slug": "komatsu60"
@@ -256,8 +256,8 @@
     "pk": 22,
     "fields": {
       "name": "komatsu100",
-      "title": "小松100",
-      "description": "小松100描述",
+      "title": "komatsu100",
+      "description": "komatsu100描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 8,
       "slug": "komatsu100"
@@ -268,8 +268,8 @@
     "pk": 23,
     "fields": {
       "name": "komatsu200",
-      "title": "小松200",
-      "description": "小松200描述",
+      "title": "komatsu200",
+      "description": "komatsu200描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 8,
       "slug": "komatsu200"
@@ -280,8 +280,8 @@
     "pk": 24,
     "fields": {
       "name": "komatsu300",
-      "title": "小松300",
-      "description": "小松300描述",
+      "title": "komatsu300",
+      "description": "komatsu300描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 8,
       "slug": "komatsu300"
@@ -292,8 +292,8 @@
     "pk": 25,
     "fields": {
       "name": "komatsu400",
-      "title": "小松400",
-      "description": "小松400描述",
+      "title": "komatsu400",
+      "description": "komatsu400描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 8,
       "slug": "komatsu400"
@@ -304,8 +304,8 @@
     "pk": 26,
     "fields": {
       "name": "xiaozi",
-      "title": "销子",
-      "description": "销子描述",
+      "title": "xiaozi",
+      "description": "xiaozi描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 9,
       "slug": "xiaozi"
@@ -316,8 +316,8 @@
     "pk": 27,
     "fields": {
       "name": "combined",
-      "title": "组合",
-      "description": "组合描述",
+      "title": "combined",
+      "description": "combined描述",
       "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
       "series": 10,
       "slug": "combined"

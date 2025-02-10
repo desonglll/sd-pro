@@ -1,0 +1,30 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 114,
+            "fields": {
+                "name": "PC-60 tip",
+                "title": "safe_label",
+                "description": "PC-60 tip description",
+                "image": "/uploads/Komatsu60/PC-60 tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d4c123145.jpg",
+                "category": 26
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 115,
+            "fields": {
+                "name": "PC-60 flat",
+                "title": "safe_label",
+                "description": "PC-60 flat description",
+                "image": "/uploads/Komatsu60/PC-60 flat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d4c136476.jpg",
+                "category": 26
+            }
+        }
+    ]
+]

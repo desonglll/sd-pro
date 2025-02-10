@@ -53,6 +53,7 @@ class Tooth(models.Model):
     )
     image = models.ImageField(upload_to="uploads/", null=True, blank=True)
     image_src = models.URLField(null=True, blank=True)
+    language = models.CharField(max_length=255, default="en")
 
     def save(self, *args, **kwargs):
         if not self.image_src:

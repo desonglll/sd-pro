@@ -1,27 +1,31 @@
 .top-menu-header {
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  padding: 0 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  height: 7vh;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    height: 7vh;
+    width: 100%;
 }
+
 .top-menu-header .logo-container {
-  margin-right: 24px;
-  cursor: pointer;
+    margin-right: 24px;
+    cursor: pointer;
 }
+
 .top-menu-header .logo-container .logo {
-  width: 120px;
-  height: auto;
+    width: 120px;
+    height: auto;
+    overflow: hidden;
 }
+
 .top-menu-header .top-menu {
-  flex: 1;
-  line-height: 7vh;
+    flex: 1;
+    line-height: 7vh;
 }
 
 .header-placeholder {
-  height: 7vh;
+    height: 7vh;
 }
 
 /*# sourceMappingURL=TopMenu.css.map */

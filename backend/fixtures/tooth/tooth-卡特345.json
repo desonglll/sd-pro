@@ -8,7 +8,8 @@
             "description": "CAT-345尖 型号描述",
             "image": "/uploads/卡特345/CAT-345尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f293d8f63.jpg",
-            "category": 11
+            "category": 11,
+            "language": "zh"
         }
     }
 ]

@@ -8,7 +8,8 @@
             "description": "CAT-330尖锥 型号描述",
             "image": "/uploads/卡特330/CAT-330尖锥.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f339041d3.jpg",
-            "category": 10
+            "category": 10,
+            "language": "zh"
         }
     },
     {
@@ -20,7 +21,8 @@
             "description": "CAT330尖TV-B 型号描述",
             "image": "/uploads/卡特330/CAT330尖TV-B.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f327d9665.jpg",
-            "category": 10
+            "category": 10,
+            "language": "zh"
         }
     },
     {
@@ -32,7 +34,8 @@
             "description": "CAT-330TV-B 型号描述",
             "image": "/uploads/卡特330/CAT-330TV-B.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f3063c559.jpg",
-            "category": 10
+            "category": 10,
+            "language": "zh"
         }
     },
     {
@@ -44,7 +47,8 @@
             "description": "CAT-330TV-A 型号描述",
             "image": "/uploads/卡特330/CAT-330TV-A.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f2e8c49fe.jpg",
-            "category": 10
+            "category": 10,
+            "language": "zh"
         }
     }
 ]

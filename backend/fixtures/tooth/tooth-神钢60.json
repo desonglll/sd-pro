@@ -8,7 +8,8 @@
             "description": "SK-60尖 型号描述",
             "image": "/uploads/神钢60/SK-60尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ee7a2c9d3.jpg",
-            "category": 13
+            "category": 13,
+            "language": "zh"
         }
     }
 ]

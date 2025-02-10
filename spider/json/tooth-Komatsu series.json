@@ -1,0 +1,170 @@
+[
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 102,
+            "fields": {
+                "name": "PC-650New tip",
+                "title": "safe_label",
+                "description": "PC-650New tip description",
+                "image": "/uploads/Komatsu series/PC-650New tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb83917d1.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 103,
+            "fields": {
+                "name": "PC650Pointed cone",
+                "title": "safe_label",
+                "description": "PC650Pointed cone description",
+                "image": "/uploads/Komatsu series/PC650Pointed cone.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb82a988e.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 104,
+            "fields": {
+                "name": "PC-400seat",
+                "title": "safe_label",
+                "description": "PC-400seat description",
+                "image": "/uploads/Komatsu series/PC-400seat.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb829692a.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 105,
+            "fields": {
+                "name": "PC-400Xinping",
+                "title": "safe_label",
+                "description": "PC-400Xinping description",
+                "image": "/uploads/Komatsu series/PC-400Xinping.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb821d769.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 106,
+            "fields": {
+                "name": "PC-400New cone",
+                "title": "safe_label",
+                "description": "PC-400New cone description",
+                "image": "/uploads/Komatsu series/PC-400New cone.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb81cb56a.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 107,
+            "fields": {
+                "name": "PC-400Xinjianda",
+                "title": "safe_label",
+                "description": "PC-400Xinjianda description",
+                "image": "/uploads/Komatsu series/PC-400Xinjianda.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb80d3d61.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 108,
+            "fields": {
+                "name": "PC-400New tip",
+                "title": "safe_label",
+                "description": "PC-400New tip description",
+                "image": "/uploads/Komatsu series/PC-400New tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7fedbdb.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 109,
+            "fields": {
+                "name": "PC-400TV mountain",
+                "title": "safe_label",
+                "description": "PC-400TV mountain description",
+                "image": "/uploads/Komatsu series/PC-400TV mountain.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7f761c4.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 110,
+            "fields": {
+                "name": "PC-400TV",
+                "title": "safe_label",
+                "description": "PC-400TV description",
+                "image": "/uploads/Komatsu series/PC-400TV.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7f643f3.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 111,
+            "fields": {
+                "name": "PC-300 seat 4.0 opening",
+                "title": "safe_label",
+                "description": "PC-300 seat 4.0 opening description",
+                "image": "/uploads/Komatsu series/PC-300 seat 4.0 opening.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7f14f0f.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 112,
+            "fields": {
+                "name": "PC-300 new pointed cone",
+                "title": "safe_label",
+                "description": "PC-300 new pointed cone description",
+                "image": "/uploads/Komatsu series/PC-300 new pointed cone.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7f00057.jpg",
+                "category": 25
+            }
+        }
+    ],
+    [
+        {
+            "model": "bucket.tooth",
+            "pk": 113,
+            "fields": {
+                "name": "PC-300 new tip",
+                "title": "safe_label",
+                "description": "PC-300 new tip description",
+                "image": "/uploads/Komatsu series/PC-300 new tip.jpg",
+                "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0fb7ed7d29.jpg",
+                "category": 25
+            }
+        }
+    ]
+]

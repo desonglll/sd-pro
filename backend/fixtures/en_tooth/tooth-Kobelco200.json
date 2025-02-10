@@ -1,0 +1,67 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 61,
+        "fields": {
+            "name": "SK-200 seat",
+            "title": "safe_label",
+            "description": "SK-200 seat description",
+            "image": "/uploads/Kobelco200/SK-200 seat.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b021a92.jpg",
+            "category": 14,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 62,
+        "fields": {
+            "name": "SK-200 Xinping",
+            "title": "safe_label",
+            "description": "SK-200 Xinping description",
+            "image": "/uploads/Kobelco200/SK-200 Xinping.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b00cded.jpg",
+            "category": 14,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 63,
+        "fields": {
+            "name": "SK-200 tip",
+            "title": "safe_label",
+            "description": "SK-200 tip description",
+            "image": "/uploads/Kobelco200/SK-200 tip.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8afec00d.jpg",
+            "category": 14,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 64,
+        "fields": {
+            "name": "SK-200 flat",
+            "title": "safe_label",
+            "description": "SK-200 flat description",
+            "image": "/uploads/Kobelco200/SK-200 flat.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ee55b0bc8.jpg",
+            "category": 14,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 65,
+        "fields": {
+            "name": "SK-200 tip",
+            "title": "safe_label",
+            "description": "SK-200 tip description",
+            "image": "/uploads/Kobelco200/SK-200 tip.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ee45cc7ec.jpg",
+            "category": 14,
+            "language": "en"
+        }
+    }
+]

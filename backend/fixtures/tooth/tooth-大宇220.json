@@ -8,7 +8,8 @@
             "description": "DH-220新尖 型号描述",
             "image": "/uploads/大宇220/DH-220新尖.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f5b0bbf9e.jpg",
-            "category": 2
+            "category": 2,
+            "language": "zh"
         }
     },
     {
@@ -20,7 +21,8 @@
             "description": "DH-220尖锥0 型号描述",
             "image": "/uploads/大宇220/DH-220尖锥0.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f59f328ba.jpg",
-            "category": 2
+            "category": 2,
+            "language": "zh"
         }
     },
     {
@@ -32,7 +34,8 @@
             "description": "DH-220TV 型号描述",
             "image": "/uploads/大宇220/DH-220TV.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f59204856.jpg",
-            "category": 2
+            "category": 2,
+            "language": "zh"
         }
     }
 ]

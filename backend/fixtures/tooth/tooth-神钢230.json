@@ -8,7 +8,8 @@
             "description": "SK-230直板座 型号描述",
             "image": "/uploads/神钢230/SK-230直板座.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b059c03.jpg",
-            "category": 15
+            "category": 15,
+            "language": "zh"
         }
     },
     {
@@ -20,7 +21,8 @@
             "description": "SK-230新尖-B 型号描述",
             "image": "/uploads/神钢230/SK-230新尖-B.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b045471.jpg",
-            "category": 15
+            "category": 15,
+            "language": "zh"
         }
     },
     {
@@ -32,7 +34,8 @@
             "description": "SK-230斜板 型号描述",
             "image": "/uploads/神钢230/SK-230斜板.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b033600.jpg",
-            "category": 15
+            "category": 15,
+            "language": "zh"
         }
     },
     {
@@ -44,7 +47,8 @@
             "description": "SK-230新尖-B 型号描述",
             "image": "/uploads/神钢230/SK-230新尖-B.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0edf683321.jpg",
-            "category": 15
+            "category": 15,
+            "language": "zh"
         }
     },
     {
@@ -56,7 +60,8 @@
             "description": "SK-230平 型号描述",
             "image": "/uploads/神钢230/SK-230平.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ede744ba3.jpg",
-            "category": 15
+            "category": 15,
+            "language": "zh"
         }
     }
 ]

@@ -1,21 +1,23 @@
 import type React from "react";
 import { Button, Space } from "antd";
 import "./Footer.scss";
-import { useNavigate } from "react-router";
-import { RouterEndpoint } from "../../api/router-endpoint";
 
 const Footer: React.FC = () => {
-  const navigate = useNavigate();
   const handleContact = () => {
-    // 在此处理“联系我们”的逻辑，比如跳转到联系我们页面
-    console.log("联系我们");
+    const email = "info@sd-get.com"; // Target email address
+    const subject = encodeURIComponent("Inquiry About Your Product"); // Email subject (URL encoded)
+    const body = encodeURIComponent(
+      "Hello, I am interested in your product. Please provide me with more information."
+    ); // Email body
+
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
   };
 
-  const handleOrderNow = () => {
-    // 在此处理“现在订购”的逻辑，比如跳转到订购页面
-    console.log("现在订购");
-    navigate(RouterEndpoint.order);
-  };
+  // const handleOrderNow = () => {
+  //   // 在此处理“现在订购”的逻辑，比如跳转到订购页面
+  //   console.log("现在订购");
+  //   navigate(RouterEndpoint.order);
+  // };
 
   return (
     <div className="footer">
@@ -27,10 +29,13 @@ const Footer: React.FC = () => {
             alignItems: "flex-start",
           }}
         >
-          <div>电话：0633-6810000，手机13606332126</div>
-          <div>总经理：李经理</div>
-          <div>邮箱：info@sd-get.com</div>
-          <div>地址：山东省日照市莒县经济开发区</div>
+          <div>Tel: 0633-6810000, Mobile: 13606332126</div>
+          <div>General Manager: Manager Li</div>
+          <div>Email: info@sd-get.com</div>
+          <div>
+            Address: Juxian Economic Development Zone, Rizhao City, Shandong
+            Province
+          </div>
           <div className="footer-info">
             Shunde China, 2025 All Right Reserved
           </div>
@@ -38,11 +43,11 @@ const Footer: React.FC = () => {
       </div>
       <Space size="middle" className="footer-actions">
         <Button type="link" onClick={handleContact}>
-          联系我们
+          Contact Us
         </Button>
-        <Button type="primary" onClick={handleOrderNow}>
+        {/* <Button type="primary" onClick={handleOrderNow}>
           现在订购
-        </Button>
+        </Button> */}
       </Space>
     </div>
   );

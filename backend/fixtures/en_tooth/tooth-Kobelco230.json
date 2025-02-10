@@ -1,0 +1,67 @@
+[
+    {
+        "model": "bucket.tooth",
+        "pk": 66,
+        "fields": {
+            "name": "SK-230 straight seat",
+            "title": "safe_label",
+            "description": "SK-230 straight seat description",
+            "image": "/uploads/Kobelco230/SK-230 straight seat.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b059c03.jpg",
+            "category": 15,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 67,
+        "fields": {
+            "name": "SK-230 New Tip-B",
+            "title": "safe_label",
+            "description": "SK-230 New Tip-B description",
+            "image": "/uploads/Kobelco230/SK-230 New Tip-B.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b045471.jpg",
+            "category": 15,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 68,
+        "fields": {
+            "name": "SK-230 inclined plate",
+            "title": "safe_label",
+            "description": "SK-230 inclined plate description",
+            "image": "/uploads/Kobelco230/SK-230 inclined plate.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0f8b033600.jpg",
+            "category": 15,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 69,
+        "fields": {
+            "name": "SK-230 New Tip-B",
+            "title": "safe_label",
+            "description": "SK-230 New Tip-B description",
+            "image": "/uploads/Kobelco230/SK-230 New Tip-B.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0edf683321.jpg",
+            "category": 15,
+            "language": "en"
+        }
+    },
+    {
+        "model": "bucket.tooth",
+        "pk": 70,
+        "fields": {
+            "name": "SK-230 flat",
+            "title": "safe_label",
+            "description": "SK-230 flat description",
+            "image": "/uploads/Kobelco230/SK-230 flat.jpg",
+            "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0ede744ba3.jpg",
+            "category": 15,
+            "language": "en"
+        }
+    }
+]

@@ -8,7 +8,8 @@
             "description": "组合 型号描述",
             "image": "/uploads/组合/组合.jpg",
             "image_src": "http://sd-get.com/home/2/c/sdvaqx/resource/2020/11/03/5fa0d3a1d3b8d.jpg",
-            "category": 27
+            "category": 27,
+            "language": "zh"
         }
     }
 ]
