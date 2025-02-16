@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     "card",
     "bucket",
     "order",
-    "news"
+    "news",
+    "environment"
 ]
 
 MIDDLEWARE = [
