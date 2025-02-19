@@ -31,7 +31,6 @@ const AboutUs: React.FC = () => {
             content: about.content,
             images: about.images,
         }}/>
-
     );
 };
 

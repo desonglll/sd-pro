@@ -1,7 +1,7 @@
 export enum RouterEndpoint {
+    home = "/",
+    aboutUs = "/about",
     category = "category/",
-    specific = "specific/",
-    order = "order/",
     newsDetail = "detail/",
-    categorySpecific = "category/specific/",
+    contactUs = "contact/",
 }

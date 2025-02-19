@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.contact-form .contact-info {
+  width: 45%;
+}
+.contact-form .contact-info .logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.contact-form .contact-info .description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.contact-form .contact-info .contact-details {
+  font-size: 14px;
+}
+.contact-form .contact-info .contact-details p {
+  margin: 5px 0;
+}
+.contact-form .form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-form .form input, .contact-form .form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.contact-form .form input:focus, .contact-form .form textarea:focus {
+  border-color: #007bff;
+}
+.contact-form .form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contact-form .form button:hover {
+  background-color: #0056b3;
+}
+.contact-form .ant-form-item {
+  margin-bottom: 0;
+}
+.contact-form .ant-form-item .ant-form-item-label > label {
+  font-size: 14px; /* 默认字体大小 */
+  font-weight: 600; /* 默认字体粗细 */
+  line-height: 22px; /* 标签行高 */
+  color: black;
+  margin-bottom: 8px; /* 标签与输入框的间距 */
+}
+
+/*# sourceMappingURL=ContactForm.css.map */

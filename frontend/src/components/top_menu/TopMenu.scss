@@ -1,14 +1,14 @@
 .top-menu-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #fff;
-  padding: 0 24px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   height: 7vh;
   width: 100%;
 
   .logo-container {
-    margin-right: 24px;
+    margin-left: 20px;
     cursor: pointer;
 
     .logo {
@@ -18,8 +18,33 @@
   }
 
   .top-menu {
-    flex: 1;
-    line-height: 7vh;
+    margin-right: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* 使按钮靠右 */
+    background-color: #f5f5f5; /* 背景颜色 */
+    .item {
+      height: 100%;
+      padding: 0 20px;
+      font-size: 16px;
+      display: flex; /* 使用flex布局 */
+      justify-content: center; /* 水平居中 */
+      align-items: center; /* 垂直居中 */
+      text-align: center; /* 确保文本水平居中 */
+      font-weight: bold;
+      border: 1px solid transparent; /* 边框透明 */
+      //border-radius: 5px;
+      background-color: #fff; /* 初始背景色 */
+      color: black;
+      cursor: pointer;
+      transition: background-color 0.3s ease; /* 平滑过渡效果 */
+    }
+
+    .item:hover {
+      background-color: #1d2d63; /* 鼠标悬停时背景色变深蓝 */
+      color: #fff;
+    }
   }
 }
 

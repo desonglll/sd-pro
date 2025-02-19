@@ -1,7 +1,6 @@
-import {Card, Row, Col, Typography, Carousel, Layout} from "antd";
+import {Row, Col, Typography, Carousel, Layout} from "antd";
 import axios from "axios";
 import "./Display.scss";
-import Footer from "../../components/skeleton/Footer.tsx";
 
 const {Title, Paragraph} = Typography;
 
@@ -23,7 +22,7 @@ const Display = ({data}: { data: DisplayDataProps }) => {
 
             <Row justify="center">
                 <Col xs={22} sm={20} md={16} lg={20}>
-                    <Card className="card">
+                    <div className="display-card">
                         <>
                             {data?.images && data.images.length > 0 && (
                                 <Carousel autoplay className="carousel">
@@ -39,10 +38,9 @@ const Display = ({data}: { data: DisplayDataProps }) => {
                             )}
                             <Paragraph>{data?.content || "暂无内容"}</Paragraph>
                         </>
-                    </Card>
+                    </div>
                 </Col>
             </Row>
-            <Footer/>
         </Layout>
     )
 };

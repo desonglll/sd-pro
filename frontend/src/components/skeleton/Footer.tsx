@@ -1,54 +1,63 @@
-import type React from "react";
-import {Button, Space} from "antd";
-import "./Footer.scss";
+import React from 'react';
+import {Form, Input, Button} from 'antd';
+import './Footer.scss';
 
 const Footer: React.FC = () => {
-    const handleContact = () => {
-        const email = "info@sd-get.com"; // Target email address
-        const subject = encodeURIComponent("Inquiry About Your Product"); // Email subject (URL encoded)
-        const body = encodeURIComponent(
-            "Hello, I am interested in your product. Please provide me with more information."
-        ); // Email body
+    const [form] = Form.useForm(); // 使用 Form hook 来管理表单
 
-        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+    // 提交表单的处理逻辑
+    const handleSubmit = (values: any) => {
+        // values 包含了表单的所有字段数据
+        console.log('Form Data: ', values);
     };
-
-    // const handleOrderNow = () => {
-    //   // 在此处理“现在订购”的逻辑，比如跳转到订购页面
-    //   console.log("现在订购");
-    //   navigate(RouterEndpoint.order);
-    // };
 
     return (
         <div className="footer">
-            <div className="footer-content">
-                <div
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "flex-start",
-                        fontSize: 13
-                    }}
-                >
-                    <div>Tel: +61 493307701, +86 15006905606</div>
-                    <div>General Manager: Manager Li</div>
-                    <div>Email: shunde02@sd-get.com</div>
-                    <div>
-                        Address: 3 George Julius Ave, Zetland, Sydney, NSW
-                    </div>
-                    <div className="footer-info">
-                        Shunde China, 2025 All Right Reserved
-                    </div>
+            <div className="footer__section footer__contact">
+                <h3>CONTACT US</h3>
+                <p>Tel: +61 493307701, +86 15006905606</p>
+                <p>Email: shunde02@sd-get.com</p>
+                <p>Address: 3 George Julius Ave, Zetland, Sydney, NSW</p>
+                <div className="footer__qr">
+                    <img src="whatsapp-qr-code.png" alt="WhatsApp QR Code"/>
                 </div>
             </div>
-            <Space size="middle" className="footer-actions">
-                <Button type="link" onClick={handleContact}>
-                    Contact Us
-                </Button>
-                {/* <Button type="primary" onClick={handleOrderNow}>
-          现在订购
-        </Button> */}
-            </Space>
+
+            <div className="footer__section footer__quote">
+                <h3>GET A FREE QUOTE</h3>
+                <Form
+                    className={"form"}
+                    form={form}
+                    onFinish={handleSubmit} // 表单提交时的处理函数
+                    layout="vertical" // 设置表单项的布局为垂直排列
+                >
+                    <Form.Item
+                        name="email"
+                        label="Email *"
+                        rules={[{required: true, message: 'Please input your email!'}]} // 添加验证规则
+                    >
+                        <Input type="email" placeholder="Email *"/>
+                    </Form.Item>
+
+                    <Form.Item name="name" label="Name">
+                        <Input type="text" placeholder="Name"/>
+                    </Form.Item>
+
+                    <Form.Item
+                        name="content"
+                        label="Message content *"
+                        rules={[{required: true, message: 'Please input your message!'}]} // 添加验证规则
+                    >
+                        <Input.TextArea placeholder="Message content *"/>
+                    </Form.Item>
+
+                    <Form.Item>
+                        <Button type="primary" htmlType="submit">
+                            Submit
+                        </Button>
+                    </Form.Item>
+                </Form>
+            </div>
         </div>
     );
 };

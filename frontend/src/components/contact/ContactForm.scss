@@ -1,0 +1,76 @@
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  .contact-info {
+    width: 45%;
+
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .contact-details {
+      font-size: 14px;
+
+      p {
+        margin: 5px 0;
+      }
+    }
+  }
+
+  .form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input, textarea {
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+
+      &:focus {
+        border-color: #007bff;
+      }
+    }
+
+    button {
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  .ant-form-item {
+    margin-bottom: 0;
+
+    .ant-form-item-label > label {
+      font-size: 14px; /* 默认字体大小 */
+      font-weight: 600; /* 默认字体粗细 */
+      line-height: 22px; /* 标签行高 */
+      color: black;
+      margin-bottom: 8px; /* 标签与输入框的间距 */
+    }
+  }
+}
+
