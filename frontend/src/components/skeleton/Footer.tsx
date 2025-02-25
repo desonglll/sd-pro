@@ -1,6 +1,8 @@
 import React from 'react';
 import {Form, Input, Button} from 'antd';
 import './Footer.scss';
+import whatsapp from "../../assets/whatsapp.jpg"
+import Logo from "../about/Logo.tsx";
 
 const Footer: React.FC = () => {
     const [form] = Form.useForm(); // 使用 Form hook 来管理表单
@@ -14,12 +16,16 @@ const Footer: React.FC = () => {
     return (
         <div className="footer">
             <div className="footer__section footer__contact">
-                <h3>CONTACT US</h3>
+                <h2>CONTACT US</h2>
+                <Logo/>
                 <p>Tel: +61 493307701, +86 15006905606</p>
                 <p>Email: shunde02@sd-get.com</p>
                 <p>Address: 3 George Julius Ave, Zetland, Sydney, NSW</p>
-                <div className="footer__qr">
-                    <img src="whatsapp-qr-code.png" alt="WhatsApp QR Code"/>
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                    <p>WhatsApp: </p>
+                    <div className="footer__qr">
+                        <img src={whatsapp} alt="WhatsApp QR Code"/>
+                    </div>
                 </div>
             </div>
 
@@ -39,7 +45,9 @@ const Footer: React.FC = () => {
                         <Input type="email" placeholder="Email *"/>
                     </Form.Item>
 
-                    <Form.Item name="name" label="Name">
+                    <Form.Item name="name" label="Name *"
+                               rules={[{required: true, message: 'Please input your name!'}]} // 添加验证规则
+                    >
                         <Input type="text" placeholder="Name"/>
                     </Form.Item>
 

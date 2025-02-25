@@ -8,6 +8,7 @@ export interface DisplayDataProps {
     id: number,
     title: string,
     content: string,
+    typeRC?: React.ReactNode,
     images?: { image: string }[],
 }
 
@@ -36,7 +37,11 @@ const Display = ({data}: { data: DisplayDataProps }) => {
                                     ))}
                                 </Carousel>
                             )}
-                            <Paragraph>{data?.content || "暂无内容"}</Paragraph>
+                            {data.typeRC ? (
+                                data.typeRC
+                            ) : (
+                                <Paragraph>{data?.content || "暂无内容"}</Paragraph>
+                            )}
                         </>
                     </div>
                 </Col>

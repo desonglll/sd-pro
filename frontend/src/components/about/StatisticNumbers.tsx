@@ -2,13 +2,14 @@ import {useEffect, useState} from 'react';
 import {Statistic, StatisticProps} from 'antd';
 import CountUp from "react-countup";
 
-const formatter: StatisticProps['formatter'] = (value) => (
-    <CountUp end={value as number} separator=","/>
-);
 
-function StatisticNumbers() {
+function StatisticNumbers({title, value, p}: { title: string, value: number, p: string }) {
     const [isVisible, setIsVisible] = useState(false); // 记录组件是否进入视口
-
+    const formatter: StatisticProps['formatter'] = (value) => (
+        <>
+            <CountUp end={value as number} separator=","/>{p}
+        </>
+    );
     useEffect(() => {
         // 创建 IntersectionObserver 实例，监听元素是否进入视口
         const observer = new IntersectionObserver(
@@ -38,7 +39,9 @@ function StatisticNumbers() {
     return (
         <div id="numbers-component">
             {isVisible && (
-                <Statistic title="Active Users" value={112893} formatter={formatter}/>
+                <>
+                    <Statistic title={title} value={value} formatter={formatter}/>
+                </>
             )}
         </div>
     );

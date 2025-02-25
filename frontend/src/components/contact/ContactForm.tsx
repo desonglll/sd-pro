@@ -56,18 +56,6 @@ const ContactForm: React.FC = () => {
                 </Form.Item>
 
                 <Form.Item
-                    name="address"
-                    label="Address"
-                >
-                    <Input
-                        type="text"
-                        placeholder="Address"
-                        value={formData.address}
-                        onChange={handleChange}
-                    />
-                </Form.Item>
-
-                <Form.Item
                     name="name"
                     label="Name *"
                     rules={[{required: true, message: 'Please input your name!'}]} // 添加验证规则
@@ -82,7 +70,8 @@ const ContactForm: React.FC = () => {
 
                 <Form.Item
                     name="tel"
-                    label="Tel"
+                    label="Tel *"
+                    rules={[{required: true, message: 'Please input your telephone number!'}]} // 添加验证规则
                 >
                     <Input
                         type="tel"

@@ -6,6 +6,10 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
+  &__contact {
+    width: auto;
+  }
+
   &__section {
     width: 30%;
     margin-bottom: 20px;

@@ -2,6 +2,11 @@ html {
     height: 100vh;
 }
 
+::selection {
+    background: royalblue;
+    color: white;
+}
+
 #root {
     height: 100%
 }

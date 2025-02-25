@@ -1,11 +1,9 @@
 import React, {useEffect, useState} from "react";
-import {Image} from "antd";
 import {useNavigate} from "react-router-dom";
 import axios from "axios";
 import "./TopMenu.scss";
-import logo from "../../assets/logo.png";
-import logo1 from "../../assets/logo1.jpg";
 import {RouterEndpoint} from "../../api/router-endpoint";
+import Logo from "../about/Logo.tsx";
 
 
 const TopMenu: React.FC = () => {
@@ -30,16 +28,7 @@ const TopMenu: React.FC = () => {
     return (
         <>
             <div className="top-menu-header">
-                <div className="logo-container" onClick={() => navigate("/")}>
-                    <Image src={logo1} alt="Logo" className="logo" preview={false} style={{paddingRight: "35px"}}/>
-                    <Image
-                        src={logo}
-                        alt="Logo"
-                        className="logo"
-                        style={{width: 108}}
-                        preview={false}
-                    />
-                </div>
+                <Logo/>
                 <div className="top-menu">
                     <div className="item" onClick={() => {
                         navigate(RouterEndpoint.home)

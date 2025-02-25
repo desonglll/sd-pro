@@ -81,7 +81,9 @@ function IndexPage() {
                                 card={item}
                                 navigateTo={item.slug ?? ""}
                                 customComponent={<div>
-                                    <StatisticNumbers/>
+                                    <StatisticNumbers title={"FOOTPRINT:"} value={60000} p={" square"}/>
+                                    <StatisticNumbers title={"ANNUAL OUTPUT:"} value={15000} p={" t"}/>
+                                    <StatisticNumbers title={"PRODUCT CATEGORY:"} value={4000} p={" +"}/>
                                 </div>}
                             />
                         )
