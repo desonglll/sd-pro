@@ -16,15 +16,22 @@ const Footer: React.FC = () => {
     return (
         <div className="footer">
             <div className="footer__section footer__contact">
-                <h2>CONTACT US</h2>
-                <Logo/>
-                <p>Tel: +61 493307701, +86 15006905606</p>
-                <p>Email: shunde02@sd-get.com</p>
-                <p>Address: 3 George Julius Ave, Zetland, Sydney, NSW</p>
-                <div style={{display: 'flex', alignItems: 'center'}}>
-                    <p>WhatsApp: </p>
-                    <div className="footer__qr">
-                        <img src={whatsapp} alt="WhatsApp QR Code"/>
+                <div style={{width: '40%'}}>
+                    <Logo/>
+                    <div style={{display: 'flex', alignItems: 'center',}}>
+                        <div className="footer__qr">
+                            <img src={whatsapp} alt="WhatsApp QR Code"/>
+                        </div>
+                    </div>
+                </div>
+                <div style={{width: "60%"}}>
+                    <h2>CONTACT US</h2>
+                    <div style={{display: "flex"}}>
+                        <div>
+                            <p><b>Tel:</b> +61 493307701, +86 15006905606</p>
+                            <p><b>Email:</b> shunde02@sd-get.com</p>
+                            <p><b>Address:</b> 3 George Julius Ave, Zetland, Sydney, NSW</p>
+                        </div>
                     </div>
                 </div>
             </div>

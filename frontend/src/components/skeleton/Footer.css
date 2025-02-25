@@ -1,17 +1,20 @@
 @charset "UTF-8";
 .footer {
-  background-color: #2c2c2c;
-  color: white;
+  background-color: #ffffff;
+  color: black;
   padding: 40px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .footer__contact {
-  width: auto;
+  width: 70%;
+  display: flex;
+}
+.footer__quote {
+  width: 30%;
 }
 .footer__section {
-  width: 30%;
   margin-bottom: 20px;
 }
 .footer__section h3 {
@@ -55,14 +58,11 @@
   margin-top: 15px;
 }
 .footer__section .footer__qr img {
-  width: 100px;
+  width: 90%;
 }
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
-  }
-  .footer__section {
-    width: 100%;
   }
 }
 
@@ -72,7 +72,7 @@
 .ant-form-item .ant-form-item-label > label {
   font-size: 14px; /* 默认字体大小 */
   font-weight: 600; /* 默认字体粗细 */
-  color: #ffffff;
+  color: black;
   line-height: 22px; /* 标签行高 */
   margin-bottom: 8px; /* 标签与输入框的间距 */
 }
